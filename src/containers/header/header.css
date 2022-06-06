@@ -1,0 +1,331 @@
+
+.oraj__header {
+display:flex;
+
+}
+
+.oraj__header-content {
+
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: flex-start;
+flex-direction: column;
+padding: 0 0;
+}
+
+.oraj__header-content_maintext{
+z-index: 1;
+position: absolute;
+display: flex;
+align-items: center;
+margin-bottom: 3rem;
+}
+
+.straight-bar{
+margin-left: 1rem;
+margin-right: 1rem;
+display: flex;
+width: 50px;
+align-items: center;
+height: 0.2rem;
+border: 0.2rem solid;
+color: var(--color-text);
+background: var(--color-text);
+
+}
+
+.oraj__header-content h1 {
+
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 1.2vw;
+color: var(--color-subtext);
+margin-bottom: 2rem;
+}
+
+.oraj__header-content h2 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 2.4vw;
+    line-height: 100%;
+    color: var(--color-text);
+    }
+
+.oraj__header-content h3 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 2.4vw;
+    line-height: 100%;
+    color: var(--color-text);
+    }
+
+
+.oraj__header-content__buttons {
+display: flex;
+align-items: center;
+margin-top: 7rem;
+
+}
+
+
+.oraj__header-content__buttons h4 {
+    line-height: 1rem;
+    background: #ffffff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+
+    cursor: pointer;
+
+    
+    }
+
+    .oraj__header-content__buttons h5 {
+        line-height: 1rem;
+        background: var(--gradient-bar);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 18px;
+        cursor: pointer;
+        border-bottom: 0.1rem solid transparent;
+        border-image: var(--gradient-bar);
+        border-image-slice: 1;
+        }
+
+.ourwork button{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    cursor: pointer;
+    border-radius: 40px;
+    border: 0px;
+    background-color: #9E00FF;
+    padding: 1rem 1.5rem;
+
+}
+
+.idea button{
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    cursor: pointer;
+    border-radius: 40px;
+    border: 0px;
+    background-color: #ffffff;
+    padding: 0rem 0rem;
+
+}
+
+.oraj__header-video {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1 white;
+    clip-path: inset(1px 1px);
+
+}
+
+.oraj__header-video video {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.oraj__header-video_mobile {
+    flex: 1;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1 white;
+    clip-path: inset(1px 1px);
+
+}
+
+.oraj__header-video_mobile video {
+    flex: 1;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+
+
+@media screen and (max-width: 1920px) {
+    .straight-bar{
+        transform: scale(0.8);
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        }
+        .oraj__header-content h1 {
+
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 1.3vw;
+            color: var(--color-subtext);
+            margin-bottom: 1rem;
+            }
+
+            .oraj__header-content h2 {
+                font-size: 2.5vw;
+                }
+            
+            .oraj__header-content h3 {
+                font-size: 2.5vw;
+                }
+
+}
+
+@media screen and (max-width: 1440px) {
+
+.straight-bar{
+    transform: scale(0.7);
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+        
+}
+
+.oraj__header-content h1 {
+    font-size: 1.4vw;
+    margin-bottom: 0rem;
+}
+        
+.oraj__header-content h2 {
+        font-size: 2.7vw;
+}
+        
+.oraj__header-content h3 {
+    font-size: 2.7vw;
+}
+
+.oraj__header-content {
+    align-items: flex-start;
+}
+
+}
+
+
+@media screen and (max-width: 1213px) {
+
+
+
+    .oraj__header {
+        display:block;
+        
+        }
+
+        .oraj__header-content_maintext{
+            z-index: 0;
+            margin-bottom: 1rem;
+            }
+
+
+    .straight-bar{
+        display: none;
+        
+        }
+
+
+    .oraj__header-content h1 {
+        font-size: 30px;
+        margin-bottom: 1rem;
+                }
+                
+                .oraj__header-content h2 {
+                    font-size: 50px;
+                    }
+                
+                .oraj__header-content h3 {
+                    display: none;
+                    }
+        
+        
+
+        .oraj__header-content {
+
+            align-items: center;
+
+            }
+
+            
+        .oraj__header-content_maintext{
+                position: relative;
+            }
+
+        .oraj__header-content__buttons {
+                margin-top: 1rem;
+                    
+            }
+        
+
+        .oraj__header-video {
+            display: none;
+
+        }
+
+        .oraj__header-video video {
+            display: none;
+            
+
+        }
+
+        .oraj__header-video_mobile {
+            display: flex;
+
+        }
+
+        .oraj__header-video_mobile video {
+            display: flex;
+            width: 50%;
+            height: 50%;
+            margin-left: 10rem;
+            margin-right: 10rem;
+
+        }
+    }
+
+        @media screen and (max-width: 750px) {
+
+            .oraj__header-content h1 {
+                font-size: 20px;
+                        }
+                        
+                        .oraj__header-content h2 {
+                            font-size: 36px;
+                            }
+
+
+        .ourwork button{
+            gap: 0.8rem;
+            padding: 1rem 1rem;
+        
+        }
+        
+        .idea button{
+            margin-left: 1rem;
+        }
+
+
+        .oraj__header-video_mobile video {
+            display: flex;
+            width: 100%;
+            height: 100%;
+
+        }
+
+    }
