@@ -3,7 +3,8 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 padding: 1.5rem 12rem;
-border-bottom: 0.3rem solid transparent;
+border: 0px;
+border-bottom: 4px solid;
 border-image: var(--gradient-bar);
 border-image-slice: 1;
 }
@@ -149,11 +150,10 @@ cursor: pointer;
         justify-content: space-between;
         align-items: center;
         padding: 1.5rem 6rem;
-        border-bottom: 0.3rem solid transparent;
+        border: 0px;
+        border-bottom: 4px solid;
         border-image: var(--gradient-bar);
         border-image-slice: 1;
-        border-style: outset;
-        border-width: 0.3rem;
     }
     
 
@@ -172,7 +172,8 @@ cursor: pointer;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    border: 0rem 0rem 0rem 0rem solid transparent;
+    border: 0px;
+    border-bottom: 4px solid;
     border-image: var(--gradient-bar);
     border-image-slice: 1;
 }
