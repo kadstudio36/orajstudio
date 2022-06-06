@@ -5,7 +5,6 @@ import heroanim60fpsmobile from '../../assets/Hero_Anim60fpsmobile.mp4'
 import heroanim60fps from '../../assets/Hero_Anim60fps.mp4'
 import arrowdiago from '../../assets/arrowdiago.svg'
 
-
 const Header = () => {
   return (
     <div className="oraj__header section__padding" id="home">
