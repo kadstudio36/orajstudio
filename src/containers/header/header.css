@@ -94,7 +94,8 @@ margin-top: 7rem;
         font-weight: 600;
         font-size: 18px;
         cursor: pointer;
-        border-bottom: 0.1rem solid transparent;
+        border: 0px;
+        border-bottom: 0.1rem solid;
         border-image: var(--gradient-bar);
         border-image-slice: 1;
         }
