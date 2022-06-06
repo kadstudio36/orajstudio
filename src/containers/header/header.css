@@ -85,6 +85,7 @@ margin-top: 7rem;
     }
 
     .oraj__header-content__buttons h5 {
+        margin-right: 0.5rem;
         line-height: 1rem;
         background: var(--gradient-bar);
         -webkit-background-clip: text;
@@ -103,7 +104,6 @@ margin-top: 7rem;
 .ourwork button{
     display: flex;
     align-items: center;
-    gap: 0.8rem;
     cursor: pointer;
     border-radius: 40px;
     border: 0px;
@@ -116,7 +116,7 @@ margin-top: 7rem;
     margin-left: 2rem;
     display: flex;
     align-items: center;
-    gap: 0.8rem;
+
     cursor: pointer;
     border-radius: 40px;
     border: 0px;
@@ -312,7 +312,6 @@ margin-top: 7rem;
 
 
         .ourwork button{
-            gap: 0.8rem;
             padding: 1rem 1rem;
         
         }
