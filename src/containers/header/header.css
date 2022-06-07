@@ -151,18 +151,19 @@ margin-top: 7rem;
     align-items: center;
     box-shadow: 1 white;
     clip-path: inset(1px 1px);
+    width: 100%;
+    height: 100%;
 
 }
 
 .oraj__header-video_mobile video {
     display: none;
-    justify-content: center;
-    align-items: center;
     width: 100%;
     height: 100%;
 
-
 }
+
+
 
 
 
@@ -286,15 +287,19 @@ margin-top: 7rem;
 
         .oraj__header-video_mobile {
             display: flex;
-
-        }
-
-        .oraj__header-video_mobile video {
-            display: block;
             width: 50%;
             height: 50%;
 
         }
+
+        .oraj__header-video_mobile video {
+            display: flex;
+            width: 100%;
+            height: 100%;
+
+        }
+
+
     }
 
         @media screen and (max-width: 750px) {
@@ -317,9 +322,16 @@ margin-top: 7rem;
             margin-left: 1rem;
         }
 
+        
+        .oraj__header-video_mobile {
+            display: flex;
+            width: 100%;
+            height: 100%;
+
+        }
 
         .oraj__header-video_mobile video {
-            display: block;
+            display: flex;
             width: 100%;
             height: 100%;
 
