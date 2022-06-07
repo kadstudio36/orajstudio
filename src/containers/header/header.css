@@ -155,7 +155,6 @@ margin-top: 7rem;
 }
 
 .oraj__header-video_mobile video {
-    flex: 1;
     display: none;
     justify-content: center;
     align-items: center;
@@ -291,11 +290,9 @@ margin-top: 7rem;
         }
 
         .oraj__header-video_mobile video {
-            display: flex;
+            display: block;
             width: 50%;
             height: 50%;
-            margin-left: 10rem;
-            margin-right: 10rem;
 
         }
     }
