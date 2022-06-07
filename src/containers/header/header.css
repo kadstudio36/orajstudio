@@ -322,7 +322,7 @@ margin-top: 7rem;
 
 
         .oraj__header-video_mobile video {
-            display: flex;
+            display: block;
             width: 100%;
             height: 100%;
 
