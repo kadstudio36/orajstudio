@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css';
 
-import heroanim60fpsmobile from '../../assets/Hero_Anim60fps.mp4'
+import heroanim60fpsmobile from '../../assets/Hero_Anim60fpsmobile.mp4'
 import heroanim60fps from '../../assets/Hero_Anim60fps.mp4'
 import arrowdiago from '../../assets/arrowdiago.svg'
 
@@ -13,10 +13,10 @@ const Header = () => {
             <div className="oraj__header-content_maintext">
               <h2>Oraj Studio</h2> <div className="straight-bar"></div> <h3>Montreal based creative</h3>
           </div>
-          <div className="oraj__header-video_mobile">
-          <video loop autoPlay playsinline="true" disablePictureInPicture="true" muted autobuffer>
+
+          <video className="oraj__header-video_mobile" loop autoPlay playsinline muted autobuffer>
           <source src={heroanim60fpsmobile} type='video/mp4' /> </video>
-  </div>
+
             <div className="oraj__header-content__buttons">
             <div className="ourwork"><button type="button"><h4>Our Work</h4></button></div>
             <div className="idea"><button type="button"><h5>Have an idea?</h5><img src={arrowdiago} alt="arrowdiago" /></button></div>
@@ -25,12 +25,8 @@ const Header = () => {
 
         </div>
         <div className="oraj__header-video">
-          <video loop autoPlay playsInLine="true" disablePictureInPicture="true" muted autoBuffer>
+          <video className="oraj__header-video" loop autoPlay playsInLine muted autoBuffer>
           <source src={heroanim60fps} type='video/mp4' /> </video>
-  </div>
-  <div className="oraj__header-video_mobile">
-          <video loop autoPlay playsinline="true" disablePictureInPicture="true" muted autoBuffer>
-          <source src={heroanim60fpsmobile} type='video/mp4' /> </video>
   </div>
     </div>
 
