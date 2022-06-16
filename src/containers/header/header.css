@@ -273,12 +273,12 @@ margin-top: 7rem;
         
 
         .oraj__header-video {
-            display: none;
+            display: flex;
 
         }
 
         .oraj__header-video video {
-            display: none;
+            display: flex;
             
 
         }
