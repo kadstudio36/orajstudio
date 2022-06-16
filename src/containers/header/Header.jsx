@@ -28,7 +28,13 @@ const Header = () => {
           <video video loop autoPlay playsinline="true" disablePictureInPicture="true" muted autobuffer>
           <source src={heroanim60fps} type='video/mp4' /> </video>
   </div>
+  <div className="oraj__header-video_mobile">
+          <video loop autoPlay playsinline="true" disablePictureInPicture="true" muted autobuffer>
+          <source src={heroanim60fpsmobile} type='video/mp4' /> </video>
+  </div>
     </div>
+
+    
   )
 }
 
