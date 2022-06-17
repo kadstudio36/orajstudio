@@ -162,6 +162,23 @@ margin-top: 7rem;
 
 }
 
+.oraj__header-video_mobile1 {
+
+    display: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+.oraj__header-video_mobile1 video {
+
+    display: absolute;
+    width: 100%;
+    height: 100%;
+
+}
 
 
 
