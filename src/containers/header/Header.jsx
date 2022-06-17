@@ -24,6 +24,8 @@ const Header = () => {
 
 
         </div>
+        <video className="oraj__header-video_mobile1" loop autoPlay playsinline muted autobuffer>
+          <source src={heroanim60fpsmobile} type='video/mp4' /> </video>
         <div className="oraj__header-video">
           <video className="oraj__header-video" loop autoPlay playsInLine muted autoBuffer>
           <source src={heroanim60fps} type='video/mp4' /> </video>
