@@ -9,6 +9,23 @@ const Header = () => {
   return (
     <div className="oraj__header section__padding" id="home">
         <div className="oraj__header-content">
+        <div className="slide1container">
+                <video className="slide1container" loop autoPlay playsinline="true"
+                disablePictureInPicture="true"
+                muted autobuffer
+                style={{
+        
+        
+                    objectFit: "contain",
+        
+        
+                  }}
+                >
+                    
+                <source src={heroanim60fpsmobile} type="video/mp4"/>
+                </video>
+                
+                </div>
             <h1 className="upper__text">We build digital experiences</h1>
             <div className="oraj__header-content_maintext">
               <h2>Oraj Studio</h2> <div className="straight-bar"></div> <h3>Montreal based creative</h3>
@@ -25,23 +42,8 @@ const Header = () => {
 
         </div>
 
-        <div className="slide1container">
-                <video loop autoPlay playsinline="true"
-                disablePictureInPicture="true"
-                muted autobuffer
-                style={{
-        
-        
-                    objectFit: "contain",
-        
-        
-                  }}
-                >
-                    
-                <source src={heroanim60fpsmobile} type="video/mp4"/>
-                </video>
-                
-                </div>
+
+
         <div className="oraj__header-video">
           <video className="oraj__header-video" loop autoPlay playsInLine muted autoBuffer>
           <source src={heroanim60fps} type="video/mp4" /> </video>
