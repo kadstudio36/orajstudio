@@ -15,7 +15,7 @@ const Header = () => {
           </div>
 
           <video className="oraj__header-video_mobile" loop autoPlay playsinline muted autobuffer>
-          <source src={heroanim60fpsmobile} type='video/mp4' /> </video>
+          <source src={heroanim60fpsmobile} type="video/mp4" /> </video>
 
             <div className="oraj__header-content__buttons">
             <div className="ourwork"><button type="button"><h4>Our Work</h4></button></div>
@@ -24,11 +24,27 @@ const Header = () => {
 
 
         </div>
-        <video className="oraj__header-video_mobile1" loop autoPlay playsinline muted autobuffer>
-          <source src={heroanim60fpsmobile} type='video/mp4' /> </video>
+
+        <div className="slide1container">
+                <video loop autoPlay playsinline="true"
+                disablePictureInPicture="true"
+                muted autobuffer
+                style={{
+        
+        
+                    objectFit: "contain",
+        
+        
+                  }}
+                >
+                    
+                <source src={heroanim60fpsmobile} type="video/mp4"/>
+                </video>
+                
+                </div>
         <div className="oraj__header-video">
           <video className="oraj__header-video" loop autoPlay playsInLine muted autoBuffer>
-          <source src={heroanim60fps} type='video/mp4' /> </video>
+          <source src={heroanim60fps} type="video/mp4" /> </video>
   </div>
     </div>
 
