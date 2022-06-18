@@ -58,6 +58,15 @@
     color: var(--color-text);
 }
 
+.oraj__about-content_uppertext h3{
+
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 1.8vw;
+    line-height: 137.5%;
+    color: var(--color-text);
+}
+
 .oraj__about-content_cards {
     margin-top: 9rem;
     flex: 1;
@@ -393,6 +402,11 @@
 
 @media screen and (max-width: 1213px) {
 
+    .oraj__about-content_cards {
+        margin-top: 5rem;
+    }
+
+
     .oraj__about-content_uppertext h1{
         font-size: 1.4vw;
     }
@@ -453,7 +467,40 @@
     }
 
 }
-    @media screen and (max-width: 700px) {
+
+
+
+@media screen and (max-width: 1214px) {
+    .oraj__about-content_uppertext h1{
+        font-size: 1.7vw;
+    }
+    .oraj__about-content_uppertext h2{
+        font-size: 2.1vw;
+    }
+
+    .oraj__about-content_uppertext h3{
+        font-size: 2.1vw;
+    }
+
+
+}
+
+
+    @media screen and (max-width: 750px) {
+
+        .oraj__about-content_uppertext h1{
+            display: none;
+        }
+        .oraj__about-content_uppertext h2{
+            font-size: 20px;
+        }
+
+        .oraj__about-content_uppertext h3{
+            margin-top: 0.5rem;
+            font-size: 20px;
+            font-weight: 400;
+        }
+    
 
         .oraj__about-content_cards {
             margin-top: 0rem;
@@ -464,7 +511,7 @@
             align-items: center;
             align-content: center;
             flex-direction: column;
-            gap: 20vw;
+            gap: 0vw;
             
         }
 
@@ -473,9 +520,8 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            width:75%;
-            margin-top: 10vh;
-            margin-bottom: 10vh;
+            width:50%;
+            margin-top: 5vh;
         }
 
         .oraj__about-content_websitesbg {
@@ -489,26 +535,20 @@
 
             .oraj__about-content_websitestxt h1{
                 margin-bottom: 0.9vh;
-                font-size: 4vw;
+                font-size: 3vw;
             }
         
             .oraj__about-content_websitestxt h2{
-                font-size: 3.3vw;
+                font-size: 2.3vw;
             }
-
-
-
-
-
 
             .oraj__about-content_applications {
                 flex: 1;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                width:75%;
-                margin-top: 10vh;
-                margin-bottom: 10vh;
+                width:50%;
+                margin-top: 5vh;
             }
     
             .oraj__about-content_applicationsbg {
@@ -522,11 +562,11 @@
     
                 .oraj__about-content_applicationstxt h1{
                     margin-bottom: 0.9vh;
-                    font-size: 4vw;
+                    font-size: 3vw;
                 }
             
                 .oraj__about-content_applicationstxt h2{
-                    font-size: 3.3vw;
+                    font-size: 2.3vw;
                 }
 
 
@@ -537,9 +577,8 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    width:75%;
-                    margin-top: 10vh;
-                    margin-bottom: 10vh;
+                    width:50%;
+                    margin-top: 5vh;
                 }
         
                 .oraj__about-content_brandingbg {
@@ -553,17 +592,67 @@
         
                     .oraj__about-content_brandingtxt h1{
                         margin-bottom: 0.9vh;
-                        font-size: 4vw;
+                        font-size: 3vw;
                     }
                 
                     .oraj__about-content_brandingtxt h2{
-                        font-size: 3.3vw;
+                        font-size: 2.3vw;
                     }
 
 
 
 
     }
+
+    @media screen and (max-width: 450px) {
+
+        .oraj__about-content_uppertext h2{
+            font-size: 20px;
+        }
+
+        .oraj__about-content_uppertext h3{
+            margin-top: 0.5rem;
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+        .oraj__about-content_websites {
+            width:75%;
+        }
+
+        .oraj__about-content_applications {
+            width:75%;
+        }
+
+        .oraj__about-content_branding {
+            width:75%;
+        }
+
+        .oraj__about-content_websitestxt h1{
+            font-size: 4vw;
+        }
+
+        .oraj__about-content_applicationstxt h1{
+            font-size: 4vw;
+        }
+
+        .oraj__about-content_brandingtxt h1{
+            font-size: 4vw;
+        }
+
+        .oraj__about-content_websitestxt h2{
+            font-size: 3vw;
+        }
+
+        .oraj__about-content_applicationstxt h2{
+            font-size: 3vw;
+        }
+
+        .oraj__about-content_brandingtxt h2{
+            font-size: 3vw;
+        }
+    }
+
 
     @media screen and (max-width: 330px) {
 

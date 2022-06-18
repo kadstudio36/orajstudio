@@ -4,7 +4,6 @@ import './header.css';
 import heroanim60fpsmobile from '../../assets/HeroAnim60fpsmobile.mp4'
 import heroanim60fps from '../../assets/Hero_Anim60fps.mp4'
 import arrowdiago from '../../assets/arrowdiago.svg'
-import Back2 from '../../assets/back2.mp4'
 
 const Header = () => {
   return (

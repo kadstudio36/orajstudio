@@ -1,27 +1,3 @@
-.back2{
-    display: block;
-    margin-top: -1255px;
-    overflow: hidden;
-    background-position: center;
-    background-size: cover;
-    width: 40%;
-
-    height: 40%;
-    margin-left: auto;
-    margin-right: auto;
-    z-index: -1;
-
-}
-
-
-.slide1container{
-        height: 100%;
-        width: 100%;
-            
-                }
-    
-
-
 .oraj__header {
 display:flex;
 
