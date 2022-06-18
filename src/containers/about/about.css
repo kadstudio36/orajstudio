@@ -83,6 +83,7 @@
 }
 
 .oraj__about-content_websitesbg {
+    display: flex;
     background-color: white;
     border-radius: 30px;
     filter: drop-shadow(0px 1.5vh 1.5vw rgba(0, 0, 0, 0.08)) drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.06)) drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.06));
@@ -141,8 +142,6 @@
 
 .oraj__about-content_applicationsbg {
     display: flex;
-    height: 100%;
-    width: 100%;
     background-color: white;
     border-radius: 30px;
     filter: drop-shadow(0px 1.5vh 1.5vw rgba(0, 0, 0, 0.08)) drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.06)) drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.06));
@@ -200,8 +199,7 @@
 }
 
 .oraj__about-content_brandingbg {
-    height: 100%;
-    width: 100%;
+    display: flex;
     background-color: white;
     border-radius: 30px;
     filter: drop-shadow(0px 1.5vh 1.5vw rgba(0, 0, 0, 0.08)) drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.06)) drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.06));
@@ -495,12 +493,91 @@
             }
         
             .oraj__about-content_websitestxt h2{
-                font-size: 3vw;
+                font-size: 3.3vw;
             }
 
 
 
 
+
+
+            .oraj__about-content_applications {
+                flex: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width:75%;
+                margin-top: 10vh;
+                margin-bottom: 10vh;
+            }
+    
+            .oraj__about-content_applicationsbg {
+    
+                border-radius: 10px;
+                }
+    
+                .oraj__about-content_applicationsimgtxt img{
+                    border-radius: 5px;
+                }
+    
+                .oraj__about-content_applicationstxt h1{
+                    margin-bottom: 0.9vh;
+                    font-size: 4vw;
+                }
+            
+                .oraj__about-content_applicationstxt h2{
+                    font-size: 3.3vw;
+                }
+
+
+
+
+                .oraj__about-content_branding {
+                    flex: 1;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width:75%;
+                    margin-top: 10vh;
+                    margin-bottom: 10vh;
+                }
+        
+                .oraj__about-content_brandingbg {
+        
+                    border-radius: 10px;
+                    }
+        
+                    .oraj__about-content_brandingimgtxt img{
+                        border-radius: 5px;
+                    }
+        
+                    .oraj__about-content_brandingtxt h1{
+                        margin-bottom: 0.9vh;
+                        font-size: 4vw;
+                    }
+                
+                    .oraj__about-content_brandingtxt h2{
+                        font-size: 3.3vw;
+                    }
+
+
+
+
+    }
+
+    @media screen and (max-width: 330px) {
+
+        .oraj__about-content_websitestxt h2{
+            font-size: 3vw;
+        }
+
+        .oraj__about-content_applicationstxt h2{
+            font-size: 3vw;
+        }
+
+        .oraj__about-content_brandingtxt h2{
+            font-size: 3vw;
+        }
     }
 
 
