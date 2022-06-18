@@ -83,8 +83,6 @@
 }
 
 .oraj__about-content_websitesbg {
-    height: 100%;
-    width: 100%;
     background-color: white;
     border-radius: 30px;
     filter: drop-shadow(0px 1.5vh 1.5vw rgba(0, 0, 0, 0.08)) drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.06)) drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.06));
@@ -456,7 +454,7 @@
         font-size: 1.25vw;
     }
 
-
+}
     @media screen and (max-width: 700px) {
 
         .oraj__about-content_cards {
@@ -472,13 +470,26 @@
             
         }
 
-        .oraj__about-content_websitesbg {
-            height: 55%;
-            width: 100%;
+        .oraj__about-content_websites {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width:20vh;
         }
+
+        .oraj__about-content_websitesbg {
+
+            border-radius: 10px;
+            }
+
+            .oraj__about-content_websitesimgtxt img{
+                border-radius: 5px;
+            }
+
+
 
 
     }
 
 
-}
