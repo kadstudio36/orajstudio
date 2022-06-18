@@ -80,7 +80,6 @@
     align-items: center;
     width: auto;
     height: auto;
-    aspect-ratio: 4 / 5;
 }
 
 .oraj__about-content_websitesbg {
@@ -140,7 +139,6 @@
     align-items: center;
     width: auto;
     height: auto;
-    aspect-ratio: 4 / 5;
 }
 
 .oraj__about-content_applicationsbg {
@@ -201,7 +199,6 @@
     align-items: center;
     width: auto;
     height: auto;
-    aspect-ratio: 4 / 5;
 }
 
 .oraj__about-content_brandingbg {
@@ -476,8 +473,8 @@
         }
 
         .oraj__about-content_websitesbg {
-            height: 50%;
-            width: 50%;
+            height: 55%;
+            width: 100%;
         }
 
 
