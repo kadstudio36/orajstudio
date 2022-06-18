@@ -178,13 +178,16 @@ margin-top: 7rem;
     margin-left: auto;
     margin-right: auto;
     z-index: -1;
+    clip-path: inset(1px 1px);
 }
 
 .oraj__header-video_mobile video {
+    
     display: none;
     overflow: hidden;
     background-position: center;
     background-size: cover;
+    
     margin-left: auto;
     margin-right: auto;
     z-index: -1;
