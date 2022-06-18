@@ -4,28 +4,30 @@ import './header.css';
 import heroanim60fpsmobile from '../../assets/Hero_Anim60fpsmobile.mp4'
 import heroanim60fps from '../../assets/Hero_Anim60fps.mp4'
 import arrowdiago from '../../assets/arrowdiago.svg'
+import Back2 from '../../assets/back2.mp4'
 
 const Header = () => {
   return (
     <div className="oraj__header section__padding" id="home">
         <div className="oraj__header-content">
-        <div className="slide1container">
-                <video className="slide1container" loop autoPlay playsinline="true"
-                disablePictureInPicture="true"
-                muted autobuffer
-                style={{
-        
-        
-                    objectFit: "contain",
-        
-        
-                  }}
-                >
-                    
-                <source src={heroanim60fpsmobile} type="video/mp4"/>
-                </video>
-                
-                </div>
+
+        <video loop autoPlay playsinline="true" disablePictureInPicture="true" muted autobuffer className="Back2"
+style={{
+  position: "absolute",
+  width: "100%",
+  left: "50%",
+  top: "50%",
+  height: "35%",
+  objectFit: "cover",
+  transform: "translate(-50%, -50%)",
+  zIndex: "-999",
+}}
+>
+<source src={Back2} type="video/mp4"/>
+
+</video>
+
+
             <h1 className="upper__text">We build digital experiences</h1>
             <div className="oraj__header-content_maintext">
               <h2>Oraj Studio</h2> <div className="straight-bar"></div> <h3>Montreal based creative</h3>
