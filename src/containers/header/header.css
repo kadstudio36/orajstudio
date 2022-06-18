@@ -168,6 +168,7 @@ margin-top: 7rem;
 }
 
 .oraj__header-video_mobile {
+    background-color: #ffffff;
     display: none;
     overflow: hidden;
     background-position: center;
