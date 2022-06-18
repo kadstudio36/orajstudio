@@ -33,8 +33,18 @@ style={{
               <h2>Oraj Studio</h2> <div className="straight-bar"></div> <h3>Montreal based creative</h3>
           </div>
 
-          <video className="oraj__header-video_mobile" loop autoPlay playsinline muted autobuffer>
-          <source src={heroanim60fpsmobile} type="video/mp4" /> </video>
+          <video loop autoPlay playsinline="true" disablePictureInPicture="true" muted autobuffer className="oraj__header-video_mobile"
+
+          style={{
+  position: "relative",
+  width: "100%",
+  height: "35%",
+  objectFit: "cover",
+  zIndex: "-999",
+}}>
+          <source src={heroanim60fpsmobile} type="video/mp4" />
+          
+           </video>
 
             <div className="oraj__header-content__buttons">
             <div className="ourwork"><button type="button"><h4>Our Work</h4></button></div>

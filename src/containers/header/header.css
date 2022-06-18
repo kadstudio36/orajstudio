@@ -169,17 +169,28 @@ margin-top: 7rem;
 
 .oraj__header-video_mobile {
     display: none;
+    overflow: hidden;
     background-position: center;
     background-size: cover;
-    width: 50%;
-    height: 50%;
+    width: 40%;
+
+    height: 40%;
     margin-left: auto;
     margin-right: auto;
-
+    z-index: -1;
 }
 
 .oraj__header-video_mobile video {
     display: none;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    width: 40%;
+
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
 
 }
 
