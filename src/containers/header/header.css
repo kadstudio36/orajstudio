@@ -168,19 +168,17 @@ margin-top: 7rem;
 }
 
 .oraj__header-video_mobile {
-    flex: 1;
     display: none;
     background-position: center;
     background-size: cover;
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
     margin-left: auto;
     margin-right: auto;
 
 }
 
 .oraj__header-video_mobile video {
-    flex: 1;
     display: none;
 
 }
@@ -309,13 +307,12 @@ margin-top: 7rem;
         }
 
         .oraj__header-video_mobile {
-            display: flex;
+            display: block;
         
         }
         
         .oraj__header-video_mobile video {
-            display: flex;
-        
+            display: block;
         }
 
 
@@ -354,12 +351,12 @@ margin-top: 7rem;
         }
 
         .oraj__header-video_mobile {
-            display: flex;
+            display: block;
         
         }
         
         .oraj__header-video_mobile video {
-            display: flex;
+            display: block;
         
         }
 
