@@ -466,7 +466,7 @@
             align-items: center;
             align-content: center;
             flex-direction: column;
-            gap: 5vw;
+            gap: 20vw;
             
         }
 
@@ -475,7 +475,9 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            width:20vh;
+            width:75%;
+            margin-top: 10vh;
+            margin-bottom: 10vh;
         }
 
         .oraj__about-content_websitesbg {
@@ -485,6 +487,15 @@
 
             .oraj__about-content_websitesimgtxt img{
                 border-radius: 5px;
+            }
+
+            .oraj__about-content_websitestxt h1{
+                margin-bottom: 0.9vh;
+                font-size: 4vw;
+            }
+        
+            .oraj__about-content_websitestxt h2{
+                font-size: 3vw;
             }
 
 
