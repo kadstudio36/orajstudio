@@ -11,21 +11,6 @@ const Header = () => {
     <div className="oraj__header section__padding" id="home">
         <div className="oraj__header-content">
 
-        <video loop autoPlay playsinline="true" disablePictureInPicture="true" muted autobuffer className="Back2"
-style={{
-  position: "absolute",
-  width: "100%",
-  left: "50%",
-  top: "50%",
-  height: "35%",
-  objectFit: "cover",
-  transform: "translate(-50%, -50%)",
-  zIndex: "-999",
-}}
->
-<source src={Back2} type="video/mp4"/>
-
-</video>
 
 
             <h1 className="upper__text">We build digital experiences</h1>
@@ -34,14 +19,7 @@ style={{
           </div>
 
           <video loop autoPlay playsinline="true" disablePictureInPicture="true" muted autobuffer className="oraj__header-video_mobile"
-
-          style={{
-  position: "relative",
-  width: "100%",
-  height: "35%",
-  objectFit: "cover",
-  zIndex: "-999",
-}}>
+>
           <source src={heroanim60fpsmobile} type="video/mp4" />
           
            </video>

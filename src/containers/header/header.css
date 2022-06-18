@@ -173,9 +173,8 @@ margin-top: 7rem;
     overflow: hidden;
     background-position: center;
     background-size: cover;
-    width: 40%;
-
-    height: 40%;
+    width: 100%;
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
     z-index: -1;
@@ -186,9 +185,6 @@ margin-top: 7rem;
     overflow: hidden;
     background-position: center;
     background-size: cover;
-    width: 40%;
-
-    height: 40%;
     margin-left: auto;
     margin-right: auto;
     z-index: -1;
@@ -320,7 +316,8 @@ margin-top: 7rem;
 
         .oraj__header-video_mobile {
             display: block;
-        
+            width: 50%;
+            height: 50%;
         }
         
         .oraj__header-video_mobile video {
@@ -364,6 +361,8 @@ margin-top: 7rem;
 
         .oraj__header-video_mobile {
             display: block;
+            width: 100%;
+            height: 100%;
         
         }
         
