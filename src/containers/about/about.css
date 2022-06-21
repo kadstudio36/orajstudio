@@ -400,7 +400,7 @@
 }
 
 
-@media screen and (max-width: 1213px) {
+@media screen and (max-width: 1214px) {
 
     .oraj__about-content_cards {
         margin-top: 5rem;
@@ -408,7 +408,14 @@
 
 
     .oraj__about-content_uppertext h1{
-        font-size: 1.4vw;
+        font-size: 1.7vw;
+    }
+    .oraj__about-content_uppertext h2{
+        font-size: 2.1vw;
+    }
+
+    .oraj__about-content_uppertext h3{
+        font-size: 2.1vw;
     }
 
     .oraj__about-content_websitesimgtxt img{
@@ -470,23 +477,16 @@
 
 
 
-@media screen and (max-width: 1214px) {
-    .oraj__about-content_uppertext h1{
-        font-size: 1.7vw;
-    }
-    .oraj__about-content_uppertext h2{
-        font-size: 2.1vw;
-    }
-
-    .oraj__about-content_uppertext h3{
-        font-size: 2.1vw;
-    }
 
 
-}
+
 
 
     @media screen and (max-width: 750px) {
+
+        .oraj__about-content_bgimage{
+            display: none;
+        }
 
         .oraj__about-content_uppertext h1{
             display: none;
@@ -605,6 +605,10 @@
     }
 
     @media screen and (max-width: 450px) {
+
+        .oraj__about-content_bgimage{
+            display: none;
+        }
 
         .oraj__about-content_uppertext h2{
             font-size: 20px;
