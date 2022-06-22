@@ -96,16 +96,23 @@ background-clip: text;
     }
   }
 
+  @media screen and (max-width: 1920px) {
+    .section__padding {
+      padding: 2rem 12rem;
+  
+  }
+}
+  
   @media screen and (max-width: 1440px) {
     .section__padding {
-      padding: 6rem 6rem;
+      padding: 2rem 6rem;
   
   }
 
 }
   @media screen and (max-width: 1213px) {
     .section__padding {
-      padding: 4rem 2rem;
+      padding: 2rem 2rem;
   
   }
   
@@ -113,7 +120,7 @@ background-clip: text;
 
   @media screen and (max-width: 700px) {
     .section__padding {
-      padding: 4rem 2rem;
+      padding: 2rem 2rem;
   
   }
 
@@ -127,7 +134,7 @@ background-clip: text;
   
   @media screen and (max-width: 550px) {
     .section__padding {
-        padding: 4rem 2rem;
+        padding: 2rem 2rem;
     
     }
 

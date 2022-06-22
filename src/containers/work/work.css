@@ -11,6 +11,7 @@
     align-items: flex-start;
     flex-direction: column;
     padding: 0 0;
+    margin-top: 5vw;
 }
 
 .oraj__work-content_uppertext{
@@ -41,7 +42,7 @@
 
 
 .oraj__work-content_container {
-    margin-top: 9rem;
+    margin-top: 5vw;
     flex: 1;
     display: flex;
     justify-content: center;
@@ -50,25 +51,31 @@
     width: 100%;
     height: 100%;
     gap: 5vw;
+    border-radius: 5vw;
 }
 
 .oraj__work-content_toastcoin {
+
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
+    height: 100%;
+    border-radius: 5vw;
     -moz-transition: all .5s;
     -webkit-transition: all .5s;
     transition: all .5s;
     -moz-transform: scale(1,1);
     -webkit-transform: scale(1,1);
     transform: scale(1,1);
+
     
 
 }
 
 .oraj__work-content_toastcoin:hover {
+    
     cursor: pointer;
     -moz-transform: scale(1.02,1.02);
     -webkit-transform: scale(1.02,1.02);
@@ -76,6 +83,7 @@
 }
 
 .oraj__work-content_toastcoinbg {
+    
     height: auto;
     overflow: hidden;
     width: 100%;
@@ -88,7 +96,7 @@
 
 
 .oraj__work-content_toastcoinright {
-    
+    border-radius: 0 5vw 5vw 0;
     display: flex;
     flex-direction: row;
     width: 50%;
@@ -98,6 +106,7 @@
 }
 
 .oraj__work-content_toastcoinimg {
+    border-radius: 0 5vw 5vw 0;
     filter: drop-shadow(0px 1px 250px rgba(0, 0, 0, 0.12));
     display: flex;
     width: 100%;
@@ -108,6 +117,7 @@
 }
 
 .oraj__work-content_toastcoinimg img {
+    border-radius: 0 5vw 5vw 0;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -134,7 +144,7 @@
 .oraj__work-content_toastcointags {
     display: flex;
     flex-direction: row;
-    gap: 0.8vw;
+    gap: 0.6vw;
 }
 
 .oraj__work-content_toastcointagsbox {
@@ -176,32 +186,41 @@ height: 2vw;
 }
 
 .oraj__work-content_toastcoindescription h1 {
+    display: flex;
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 1.2vw;
     line-height: 137.5%;
     color: var(--color-subtext);
-    
-
-
 }
+
+.oraj__work-content_toastcoindescription h2 {
+    display: none;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 1.2vw;
+    line-height: 137.5%;
+    color: var(--color-subtext);
+}
+
+
 .oraj__work-content_toastcoinbutton {
     display: flex;
     align-items: flex-end;
     height: 100%;
     cursor:pointer;
+    margin-top: none;
 }
 
 .oraj__work-content_toastcoinbutton button {
-
-background-color: transparent;
-display: flex;
-align-items: center;
-justify-content: center;
-cursor:pointer;
-border-radius: 40px;
-border: 0px;
-padding: 0rem 0rem;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+    border-radius: 40px;
+    border: 0px;
+    padding: 0rem 0rem;
 }
 
 .oraj__work-content_toastcoinbutton h1 {
@@ -214,19 +233,11 @@ padding: 0rem 0rem;
 }
 
 .oraj__work-content_toastcoinbutton img {
-height: 1vw;
-width: 1vw;
-margin-left: 0.5vw;
+    height: 1vw;
+    width: 1vw;
+    margin-left: 0.5vw;
     
 }
-
-
-
-
-
-
-
-
 
 .oraj__work-content_muspacebg {
     height: auto;
@@ -286,13 +297,165 @@ margin-left: 0.5vw;
 
 @media screen and (max-width: 750px) {
 
+    .oraj__work-content_toastcoindescription h1 {
+        display: none;
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 1.2vw;
+        line-height: 137.5%;
+        color: var(--color-subtext);
+    }
+    
+    .oraj__work-content_toastcoindescription h2 {
+        display: flex;
+        color: var(--color-subtext);
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 2.8vw;
+    }
+
+    .oraj__work-content_toastcoinleft {
+        display: flex;
+        flex-direction: column;
+        padding: 10% 10% 10% 10%;
+        width: 100%;
+        height: 100%;
+    }
+
+    .oraj__work-content_toastcoinbg {
+    
+        height: auto;
+        overflow: hidden;
+        width: 100%;
+        flex-direction: column;
+        display: flex;
+        background-color: #FAF3FC;
+        border-radius: 5vw;
+        filter: drop-shadow(0px 1.5vh 1.5vw rgba(0, 0, 0, 0.08)) drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.06)) drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.06));
+    }
+
+    .oraj__work-content_muspacebg {
+    
+        height: auto;
+        overflow: hidden;
+        width: 100%;
+        flex-direction: column;
+        display: flex;
+        background-color: #F3F7FC;
+        border-radius: 5vw;
+        filter: drop-shadow(0px 1.5vh 1.5vw rgba(0, 0, 0, 0.08)) drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.06)) drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.06));
+    }
+
+    .oraj__work-content_toastcointags h1 {
+        color: var(--color-subtext);
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 2.8vw;
+    }
+
+    .oraj__work-content_toastcointags h2 {
+        display: flex;
+        color: var(--color-subtext);
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 2.8vw;
+    }
+    
+    .oraj__work-content_toastcoinlogo {
+        margin-top: 4vw;
+        display: flex;
+        flex-direction: row;
+        gap: 2vw;
+        align-items: center;
+    }
+    
+    .oraj__work-content_toastcoinlogo img {
+        height: 5vw;
+    }
+    
+    .oraj__work-content_toastcoinlogo h1 {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 5vw;
+        line-height: 137.5%;
+        color: var(--color-text);
+    }
+
+    .oraj__work-content_toastcoindescription {
+        margin-top: 4vw;
+    }
+    
+    .oraj__work-content_toastcoindescription h1 {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 3vw;
+        line-height: 137.5%;
+        color: var(--color-subtext);
+    }
+
+    .oraj__work-content_toastcoinbutton {
+        margin-top: 7vw;
+    }
+
+    .oraj__work-content_toastcoinbutton h1 {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 3vw;
+        line-height: 1vw;
+        color: var(--color-text);
+        text-decoration: underline 1px;
+    }
+    
+    .oraj__work-content_toastcoinbutton img {
+        height: 3vw;
+        width: 3vw;
+        margin-left: 0.5vw;    
+    }
+
+    .oraj__work-content_toastcoinright {
+        border-radius: 0 0 0 0;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 40%;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    
+    .oraj__work-content_toastcoinimg {
+        border-radius: 0 0 0 0;
+        filter: drop-shadow(0px 1px 250px rgba(0, 0, 0, 0.12));
+        display: flex;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    
+    .oraj__work-content_toastcoinimg img {
+        border-radius: 0 0 0 0;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+
+
     .oraj__work-content_uppertext h1{
         font-size: 16px;
     }
 
-        .oraj__work-content_uppertext h2{
-            font-size: 20px;
-        }
+    .oraj__work-content_uppertext h2{
+        font-size: 20px;
+    }
 
 }
 

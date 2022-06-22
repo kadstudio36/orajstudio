@@ -68,7 +68,7 @@
 }
 
 .oraj__about-content_cards {
-    margin-top: 9rem;
+    margin-top: 5vw;
     flex: 1;
     display: flex;
     justify-content: center;
@@ -402,9 +402,7 @@
 
 @media screen and (max-width: 1214px) {
 
-    .oraj__about-content_cards {
-        margin-top: 5rem;
-    }
+
 
 
     .oraj__about-content_uppertext h1{
