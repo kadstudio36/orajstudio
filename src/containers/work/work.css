@@ -50,12 +50,11 @@
     flex-direction: column;
     width: 100%;
     height: 100%;
-    gap: 5vw;
     border-radius: 5vw;
 }
 
 .oraj__work-content_toastcoin {
-
+    filter: drop-shadow(0px 1.5vh 1.5vw rgba(0, 0, 0, 0.08)) drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.06)) drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.06));
     flex: 1;
     display: flex;
     justify-content: center;
@@ -69,7 +68,7 @@
     -moz-transform: scale(1,1);
     -webkit-transform: scale(1,1);
     transform: scale(1,1);
-
+    margin-top: 5vh;
     
 
 }
@@ -83,7 +82,6 @@
 }
 
 .oraj__work-content_toastcoinbg {
-    
     height: auto;
     overflow: hidden;
     width: 100%;
@@ -91,7 +89,6 @@
     display: flex;
     background-color: #FAF3FC;
     border-radius: 5vw;
-    filter: drop-shadow(0px 1.5vh 1.5vw rgba(0, 0, 0, 0.08)) drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.06)) drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.06));
 }
 
 
@@ -247,7 +244,6 @@ height: 2vw;
     display: flex;
     background-color: #F3F7FC;
     border-radius: 5vw;
-    filter: drop-shadow(0px 1.5vh 1.5vw rgba(0, 0, 0, 0.08)) drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.06)) drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.06));
 }
 
 
@@ -297,7 +293,22 @@ height: 2vw;
 
 @media screen and (max-width: 750px) {
 
-    
+    .oraj__work-content_toastcoin {
+        filter: drop-shadow(0px 9px 10px rgba(0, 0, 0, 0.08)) drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.06)) drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.06));
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        border-radius: 10vw;
+        -moz-transition: all .5s;
+        -webkit-transition: all .5s;
+        transition: all .5s;
+        -moz-transform: scale(1,1);
+        -webkit-transform: scale(1,1);
+        transform: scale(1,1);
+    }
 
     .oraj__work-content_toastcoindescription h1 {
         display: none;
@@ -317,34 +328,32 @@ height: 2vw;
     }
 
     .oraj__work-content_toastcoinleft {
+        width: 100%;
+        height: 100%;
         display: flex;
         flex-direction: column;
         padding: 8% 8% 8% 8%;
-        width: 100%;
-        height: 100%;
     }
 
     .oraj__work-content_toastcoinbg {
         height: 100%;
-        overflow: none;
         width: 100%;
+        overflow: none;
         flex-direction: column;
         display: flex;
         background-color: #FAF3FC;
         border-radius: 10vw;
-        filter: drop-shadow(0px 9px 10px rgba(0, 0, 0, 0.08)) drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.06)) drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.06));
     }
 
     .oraj__work-content_muspacebg {
     
         height: 100%;
-        overflow: none;
         width: 100%;
+        overflow: none;
         flex-direction: column;
         display: flex;
         background-color: #F3F7FC;
         border-radius: 10vw;
-        filter: drop-shadow(0px 9px 10px rgba(0, 0, 0, 0.08)) drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.06)) drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.06));
     }
 
     .oraj__work-content_toastcointags {
@@ -402,7 +411,7 @@ height: 2vw;
 
 
     .oraj__work-content_toastcoinbutton {
-        margin-top: 0;
+        margin-top: 8vw;
     }
 
     .oraj__work-content_toastcoinbutton h1 {
@@ -421,17 +430,17 @@ height: 2vw;
     }
 
     .oraj__work-content_toastcoinright {
-        border-radius: 0 0 0 0;
+        border-radius: 0 0 10vw 10vw;
         display: flex;
         flex-direction: row;
         width: 100%;
-        height: 40%;
+        height: 100%;
         justify-content: flex-end;
         align-items: flex-end;
     }
     
     .oraj__work-content_toastcoinimg {
-        border-radius: 0 0 0 0;
+        border-radius: 0 0 10vw 10vw;
         filter: drop-shadow(0px 1px 250px rgba(0, 0, 0, 0.12));
         display: flex;
         width: 100%;
@@ -442,7 +451,7 @@ height: 2vw;
     }
     
     .oraj__work-content_toastcoinimg img {
-        border-radius: 0 0 0 0;
+        border-radius: 0 0 10vw 10vw;
         flex: none;
         order: 0;
         flex-grow: 0;
