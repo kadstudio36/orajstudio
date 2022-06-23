@@ -461,5 +461,12 @@ height: 2vw;
 
 @media screen and (max-width: 450px) {
 
+    .oraj__work-content_toastcoindescription h2 {
+        display: flex;
+        color: var(--color-subtext);
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 16px;
+    }
 
 }
