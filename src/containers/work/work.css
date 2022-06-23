@@ -364,19 +364,16 @@ height: 2vw;
     }
 
     .oraj__work-content_toastcointags {
-
         width: auto;
         height: auto;
     }
 
     .oraj__work-content_toastcointagsbox {
-        width: auto;
-        height: auto;
-        margin-right: 2vw;
+        margin: 0 2vw 0 0;
         justify-content: left;
         display: flex;
         border-radius: 20px;
-        padding: 1% 2% 1% 2%;
+        padding: 1px 8px 1px 8px;
         border: 1px solid #CECECE;
     }
 
@@ -509,6 +506,15 @@ height: 2vw;
         height: 1rem;
         width: 1rem;
         margin-left: 0.5vw;    
+    }
+
+    .oraj__work-content_toastcointagsbox {
+        margin: 0 2vw 0 0;
+        justify-content: left;
+        display: flex;
+        border-radius: 20px;
+        padding: 1px 4px 1px 4px;
+        border: 1px solid #CECECE;
     }
 
 }
