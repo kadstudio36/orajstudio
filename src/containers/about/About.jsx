@@ -16,7 +16,7 @@ const About = () => {
           <div className="oraj__about-content">
 
             <div className="oraj__about-content_uppertext">
-            <h1>About us</h1><h2>Oraj is a creative agency with market-leading design and development skills.</h2><h3>We help you transform your brand and make the digital shift.</h3>
+            <h1>About us</h1><h2>Oraj is a creative agency with market-leading design and development skills. We help you transform your brand and make the digital shift.</h2>
             </div>
               <div className="oraj__about-content_cards">
                 <div className="oraj__about-content_websites">

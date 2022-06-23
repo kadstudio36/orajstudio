@@ -43,7 +43,7 @@
 
     font-family: var(--font-family);
     font-weight: 400;
-    font-size: 1.2vw;
+    font-size: 32px;
     line-height: 100%;
     color: var(--color-subtext);
     margin-bottom: 1rem;
@@ -53,19 +53,15 @@
 
     font-family: var(--font-family);
     font-weight: 600;
-    font-size: 1.8vw;
+    font-size: 42px;
     line-height: 137.5%;
     color: var(--color-text);
 }
 
-.oraj__about-content_uppertext h3{
 
-    font-family: var(--font-family);
-    font-weight: 600;
-    font-size: 1.8vw;
-    line-height: 137.5%;
-    color: var(--color-text);
-}
+
+
+
 
 .oraj__about-content_cards {
     margin-top: 5vw;
@@ -263,11 +259,16 @@
 @media screen and (max-width: 1920px) {
 
 
+
+
     .oraj__about-content_uppertext h1{
-        font-size: 1.3vw;
+        font-size: 26px;
         margin-bottom: 0.8vh;
     }
-
+    
+    .oraj__about-content_uppertext h2{
+        font-size: 36px;
+    }
 
 
     .oraj__about-content_websitesimgtxt img{
@@ -326,6 +327,15 @@
 
 @media screen and (max-width: 1600px) {
 
+    .oraj__about-content_uppertext h1{
+        font-size: 24px;
+    }
+    
+    .oraj__about-content_uppertext h2{
+        font-size: 34px;
+    }
+
+
     .oraj__about-content_websitestxt h1{
         margin-bottom: 0.7vh;
     }
@@ -361,8 +371,14 @@
 @media screen and (max-width: 1440px) {
 
     .oraj__about-content_uppertext h1{
-        font-size: 1.4vw;
+        font-size: 22px;
     }
+    
+    .oraj__about-content_uppertext h2{
+        font-size: 30px;
+    }
+
+
 
 
 
@@ -406,15 +422,13 @@
 
 
     .oraj__about-content_uppertext h1{
-        font-size: 1.7vw;
-    }
-    .oraj__about-content_uppertext h2{
-        font-size: 2.1vw;
+        font-size: 20px;
     }
 
-    .oraj__about-content_uppertext h3{
-        font-size: 2.1vw;
+    .oraj__about-content_uppertext h2{
+        font-size: 28px;
     }
+
 
     .oraj__about-content_websitesimgtxt img{
         border-radius: 10px;
@@ -487,17 +501,13 @@
         }
 
         .oraj__about-content_uppertext h1{
-            display: none;
+            font-size: 16px;
         }
+
         .oraj__about-content_uppertext h2{
             font-size: 20px;
         }
 
-        .oraj__about-content_uppertext h3{
-            margin-top: 0.5rem;
-            font-size: 20px;
-            font-weight: 400;
-        }
     
 
         .oraj__about-content_cards {
@@ -604,19 +614,19 @@
 
     @media screen and (max-width: 450px) {
 
-        .oraj__about-content_bgimage{
-            display: none;
+        .oraj__about-content_uppertext h1{
+            font-size: 16px;
         }
 
         .oraj__about-content_uppertext h2{
             font-size: 20px;
         }
 
-        .oraj__about-content_uppertext h3{
-            margin-top: 0.5rem;
-            font-size: 20px;
-            font-weight: 400;
+        .oraj__about-content_bgimage{
+            display: none;
         }
+
+
 
         .oraj__about-content_websites {
             width:75%;
@@ -657,6 +667,10 @@
 
 
     @media screen and (max-width: 330px) {
+
+        .oraj__about-content_uppertext h2{
+            font-size: 20px;
+        }
 
         .oraj__about-content_websitestxt h2{
             font-size: 3vw;
