@@ -311,9 +311,10 @@ height: 2vw;
     }
 
     .oraj__work-content_toastcoin:hover {
+        cursor: default;
         -moz-transform: none;
         -webkit-transform: none;
-        transform: none;    
+        transform: none;
     }
 
     .oraj__work-content_toastcoindescription h1 {
