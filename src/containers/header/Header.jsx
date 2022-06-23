@@ -17,7 +17,7 @@ const Header = () => {
               <h2>Oraj Studio</h2> <div className="straight-bar"></div> <h3>Montreal based creative</h3>
           </div>
 
-          <video loop autoPlay playsinline="true" disablePictureInPicture="true" muted autobuffer className="oraj__header-video_mobile">
+          <video loop autoPlay playsInline="true" disablePictureInPicture="true" muted autobuffer className="oraj__header-video_mobile">
           <source src={heroanim60fpsmobile} type="video/mp4" />
           
            </video>
@@ -33,7 +33,7 @@ const Header = () => {
 
 
         <div className="oraj__header-video">
-          <video className="oraj__header-video" loop autoPlay playsInLine muted autobuffer>
+          <video className="oraj__header-video" loop autoPlay playsInline muted autobuffer>
           <source src={heroanim60fps} type="video/mp4" /> </video>
   </div>
     </div>

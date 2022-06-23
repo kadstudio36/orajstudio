@@ -291,7 +291,7 @@ height: 2vw;
 
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (hover: none) and (max-width: 750px) {
 
     .oraj__work-content_toastcoin {
         filter: drop-shadow(0px 9px 10px rgba(0, 0, 0, 0.08)) drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.06)) drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.06));
@@ -396,11 +396,11 @@ height: 2vw;
         margin-top: 4vw;
         display: flex;
         flex-direction: row;
-        gap: 2vw;
         align-items: center;
     }
     
     .oraj__work-content_toastcoinlogo img {
+        margin-right: 1.5vw;
         height: 5vw;
     }
     
