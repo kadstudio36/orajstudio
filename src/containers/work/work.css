@@ -310,6 +310,12 @@ height: 2vw;
         transform: scale(1,1);
     }
 
+    .oraj__work-content_toastcoin:hover {
+        -moz-transform: none;
+        -webkit-transform: none;
+        transform: none;    
+    }
+
     .oraj__work-content_toastcoindescription h1 {
         display: none;
         font-family: var(--font-family);
@@ -358,10 +364,11 @@ height: 2vw;
 
     .oraj__work-content_toastcointags {
         width: 100%;
-        gap: 0.4rem;
+        gap: none;
     }
 
     .oraj__work-content_toastcointagsbox {
+        margin-right: 1vw;
         width: auto;
         display: flex;
         border-radius: 20px;
@@ -370,6 +377,7 @@ height: 2vw;
     }
 
     .oraj__work-content_toastcointags h1 {
+        height: 100%;
         color: var(--color-subtext);
         font-family: var(--font-family);
         font-weight: 600;
