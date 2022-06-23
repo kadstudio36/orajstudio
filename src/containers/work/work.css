@@ -141,10 +141,10 @@
 .oraj__work-content_toastcointags {
     display: flex;
     flex-direction: row;
-    gap: 0.6vw;
 }
 
 .oraj__work-content_toastcointagsbox {
+    margin-right: 1vw;
     display: flex;
     border-radius: 50px;
     padding: 0.7% 2.3% 0.7% 2.3%;
@@ -364,16 +364,17 @@ height: 2vw;
     }
 
     .oraj__work-content_toastcointags {
+
         width: 100%;
-        gap: none;
+        
     }
 
     .oraj__work-content_toastcointagsbox {
-        margin-right: 1vw;
-        width: auto;
+        margin-right: 2vw;
+        justify-content: left;
         display: flex;
         border-radius: 20px;
-        padding: 1.5% 2% 1.5% 2%;
+        padding: 1% 2% 1% 2%;
         border: 1px solid #CECECE;
     }
 
@@ -385,13 +386,6 @@ height: 2vw;
         font-size: 2.4vw;
     }
 
-    .oraj__work-content_toastcointags h2 {
-        display: flex;
-        color: var(--color-subtext);
-        font-family: var(--font-family);
-        font-weight: 600;
-        font-size: 2.4vw;
-    }
     
     .oraj__work-content_toastcoinlogo {
         margin-top: 4vw;
@@ -504,9 +498,9 @@ height: 2vw;
         font-family: var(--font-family);
         font-weight: 600;
         font-size: 16px;
-        line-height: 1vw;
+        line-height: 3vw;
         color: var(--color-text);
-        text-decoration: underline 1px;
+        text-decoration: none;
     }
 
     .oraj__work-content_toastcoinbutton img {
