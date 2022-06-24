@@ -143,6 +143,14 @@ cursor: pointer;
 
 }
 
+@media screen and (max-width: 1920px) {
+    .oraj__navbar {
+        padding: 1.5rem 6rem;
+    }
+    
+
+}
+
 @media screen and (max-width: 1440px) {
     .oraj__navbar {
         display: flex;

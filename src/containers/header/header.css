@@ -1,47 +1,47 @@
 .oraj__header {
-        margin-top: 2vw;
-display:flex;
+    margin-top: 2vw;
+    display:flex;
 
 }
 
 .oraj__header-content {
 
-flex: 1;
-display: flex;
-justify-content: center;
-align-items: flex-start;
-flex-direction: column;
-padding: 0 0;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0 0;
 }
 
 .oraj__header-content_maintext{
-z-index: 1;
-position: absolute;
-display: flex;
-align-items: center;
-margin-bottom: 3rem;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
 }
 
 .straight-bar{
-margin-left: 1rem;
-margin-right: 1rem;
-display: flex;
-width: 50px;
-align-items: center;
-height: 0.2rem;
-border: 0.2rem solid;
-color: var(--color-text);
-background: var(--color-text);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    width: 50px;
+    align-items: center;
+    height: 0.2rem;
+    border: 0.2rem solid;
+    color: var(--color-text);
+    background: var(--color-text);
 
 }
 
 .oraj__header-content h1 {
 
-font-family: var(--font-family);
-font-weight: 400;
-font-size: 1.2vw;
-color: var(--color-subtext);
-margin-bottom: 2rem;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 32px;
+    color: var(--color-subtext);
+    margin-bottom: 2rem;
 }
 
 .oraj__header-content h2 {
@@ -62,9 +62,9 @@ margin-bottom: 2rem;
 
 
 .oraj__header-content__buttons {
-display: flex;
-align-items: center;
-margin-top: 7rem;
+    display: flex;
+    align-items: center;
+    margin-top: 7rem;
 
 }
 
@@ -84,7 +84,7 @@ margin-top: 7rem;
     
     }
 
-    .oraj__header-content__buttons h5 {
+.oraj__header-content__buttons h5 {
         margin-right: 0.5rem;
         line-height: 1rem;
         background: var(--gradient-bar);
@@ -99,7 +99,7 @@ margin-top: 7rem;
         border-bottom: 0.1rem solid;
         border-image: var(--gradient-bar);
         border-image-slice: 1;
-        }
+}
 
 .ourwork button{
     display: flex;
@@ -185,7 +185,7 @@ margin-top: 7rem;
 
             font-family: var(--font-family);
             font-weight: 400;
-            font-size: 1.3vw;
+            font-size: 26px;
             color: var(--color-subtext);
             margin-bottom: 1rem;
             }
@@ -210,7 +210,7 @@ margin-top: 7rem;
 }
 
 .oraj__header-content h1 {
-    font-size: 1.4vw;
+    font-size: 24px;
     margin-bottom: 0rem;
 }
         
@@ -230,47 +230,62 @@ margin-top: 7rem;
 
 }
 
-@media screen and (max-width: 1213px) {
+
+@media screen and (max-width: 1600px) {
+
+    .oraj__header-content h1 {
+        font-size: 24px;
+                }
+
+}
+
+@media screen and (max-width: 1440px) {
+
+    .oraj__header-content h1 {
+        font-size: 22px;
+                }
+
+}
+
+@media screen and (max-width: 1214px) {
 
 
 
     .oraj__header {
         display:block;
         
-        }
+    }
 
         .oraj__header-content_maintext{
             z-index: 0;
             margin-bottom: 1rem;
-            }
+    }
 
 
     .straight-bar{
         display: none;
         
-        }
+    }
 
 
     .oraj__header-content h1 {
-        font-size: 30px;
+        font-size: 20px;
         margin-bottom: 1rem;
-                }
+    }
                 
-                .oraj__header-content h2 {
-                    font-size: 50px;
-                    }
+    .oraj__header-content h2 {
+        font-size: 50px;
+    }
                 
-                .oraj__header-content h3 {
-                    display: none;
-                    }
+    .oraj__header-content h3 {
+        display: none;
+    }
         
         
 
-        .oraj__header-content {
-
-            align-items: center;
-
-            }
+    .oraj__header-content {
+        align-items: center;
+    }
 
             
         .oraj__header-content_maintext{
