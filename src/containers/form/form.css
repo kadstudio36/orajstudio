@@ -32,7 +32,137 @@
 
 }
 
+
+
+.oraj__form-content_form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.oraj__form-content_textinput{
+    margin-top: 7vh;
+    font-family: var(--font-family);
+    font-weight: 400;
+    position: relative;
+    outline:none;
+    color: var(--color-subtext);
+    font-size: 24px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid var(--color-lighttext);
+}
+
+.oraj__form-content_button {
+    margin-top: 7vh;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: 0px;
+    background-color: #ffffff;
+    padding: 0rem 0rem;
+}
+
+.oraj__form-content_button h1{
+    font-family: var(--font-family);
+    font-weight: 500;
+    color: var(--color-subtext);
+    position: relative;
+    outline:none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    line-height: 100%;
+    border-bottom: 2px solid var(--color-subtext);
+}
+
+.oraj__form-content_button img{
+    width: 2vh;
+    margin-left: 0.7vh;
+    }
+
+.oraj__form-content_topdiv {
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+}
+
+    .oraj__form-content_backtop {
+        width: fit-content;
+        margin-top: 20vh;
+        display: flex;
+        cursor: pointer;
+        justify-content: flex-end;
+        align-items: flex-end;
+        border: 0px;
+        padding: 0rem 0rem;
+    }
+
+    
+    .oraj__form-content_backtop h1{
+        font-family: var(--font-family);
+        font-weight: 500;
+        color: var(--color-subtext);
+        position: relative;
+        outline:none;
+        font-size: 24px;
+        background: none;
+        border: none;
+        line-height: 100%;
+    }
+
+
+    .oraj__form-content_backtop img{
+        width: 1.5vh;
+    margin-left: 0.7vh;
+        }
+
+
+
+
+::placeholder {
+    color: var(--color-lighttext);
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder {
+    color: var(--color-lighttext);
+  }
+  
+  ::-ms-input-placeholder {
+    color: var(--color-lighttext);
+  }
+
+
+
 @media screen and (max-width: 1920px) {
+
+    .oraj__form-content_button img{
+        width: 1.7vh;
+    margin-left: 0.7vh;
+        }
+
+    .oraj__form-content_button {
+        margin-top: 6vh;
+    }
+
+    .oraj__form-content_textinput{
+        margin-top: 6vh;
+    }
+
+    .oraj__form-content_backtop h1{
+        font-size: 22px;
+    }
+
+    .oraj__form-content_textinput{
+        font-size: 22px;
+    }
+    
+
+    .oraj__form-content_button h1{
+        font-size: 22px;
+    }
 
     .oraj__form-content_uppertext h1{
         font-size: 26px;
@@ -47,6 +177,26 @@
 
 @media screen and (max-width: 1600px) {
 
+    .oraj__form-content_button {
+        margin-top: 5vh;
+    }
+    
+    .oraj__form-content_textinput{
+        margin-top: 5vh;
+    }
+
+    .oraj__form-content_backtop h1{
+        font-size: 20px;
+    }
+
+    .oraj__form-content_textinput{
+        font-size: 20px;
+    }
+
+    .oraj__form-content_button h1{
+        font-size: 20px;
+    }
+
     .oraj__form-content_uppertext h1{
         font-size: 24px;
     }
@@ -58,6 +208,32 @@
 }
 
 @media screen and (max-width: 1440px) {
+
+    .oraj__form-content_button img{
+        width: 1.5vh;
+    margin-left: 0.7vh;
+        }
+
+    .oraj__form-content_button {
+        margin-top: 5vh;
+    }
+
+    .oraj__form-content_textinput{
+        margin-top: 5vh;
+    }
+
+    .oraj__form-content_backtop h1{
+        font-size: 20px;
+    }
+
+    .oraj__form-content_textinput{
+        font-size: 20px;
+    }
+
+    .oraj__form-content_button h1{
+        font-size: 20px;
+    }
+
     .oraj__form-content_uppertext h1{
         font-size: 22px;
     }
@@ -70,6 +246,26 @@
 
 @media screen and (max-width: 1214px) {
 
+    .oraj__form-content_button {
+        margin-top: 4vh;
+    }
+
+    .oraj__form-content_textinput{
+        margin-top: 4vh;
+    }
+
+    .oraj__form-content_backtop h1{
+        font-size: 18px;
+    }
+
+    .oraj__form-content_textinput{
+        font-size: 18px;
+    }
+
+    .oraj__form-content_button h1{
+        font-size: 18px;
+    }
+
     .oraj__form-content_uppertext h1{
         font-size: 20px;
     }
@@ -80,6 +276,30 @@
 }
 
 @media screen and (max-width: 750px) {
+
+    .oraj__form-content_button {
+        margin-top: 4vh;
+    }
+
+    .oraj__form-content_textinput{
+        margin-top: 4vh;
+    }
+
+    .oraj__form-content_backtop {
+        margin-top: 10vh;
+    }
+
+    .oraj__form-content_backtop h1{
+        font-size: 16px;
+    }
+
+    .oraj__form-content_textinput{
+        font-size: 16px;
+    }
+
+    .oraj__form-content_button h1{
+        font-size: 16px;
+    }
 
     .oraj__form-content_uppertext h1{
         font-size: 16px;

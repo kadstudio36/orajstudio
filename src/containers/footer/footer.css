@@ -1,0 +1,308 @@
+.oraj__footer {
+    background-color: #0E0E0E;
+    margin-top: 0vh;
+}
+
+.oraj__footer-content {
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.oraj__footer-content_upperpart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.oraj__footer-content_logo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.oraj__footer-content_logo img{
+    width: 6vh;
+
+}
+
+.oraj__footer-content_email {
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+
+}
+
+.oraj__footer-content_email h1 {
+width: auto;
+justify-content: flex-end;
+align-items: flex-end;
+color: white;
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 24px;
+background: none;
+border: none;
+border-bottom: 2px solid var(--color-subtext);
+}
+
+.oraj__footer-content_middletext {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.oraj__footer-content_middletextmob {
+    margin-top: 3vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.oraj__footer-content_weareoraj {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.oraj__footer-content_resttext {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: var(--font-family);
+    font-weight: 400;
+    color: var(--color-subtext);
+    cursor: pointer;
+    border: 0px;
+    background-color: #0E0E0E;
+}
+
+.oraj__footer-content_resttext h1{
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 120%;
+    font-size: 48px;
+
+}
+
+.oraj__footer-content_button {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: var(--font-family);
+    color: var(--color-subtext);
+    cursor: pointer;
+    border: 0px;
+    background-color: #0E0E0E;
+}
+
+.oraj__footer-content_button h1{
+    font-weight: 600;
+    background: linear-gradient(270deg, #D78BAF 0%, #FBBB9D 52.19%, #BC969A 102.26%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 48px;
+    line-height: 120%;
+    cursor: pointer;
+}
+
+.oraj__footer-content_lowerpart {
+    margin-top: 10vh;
+    display: flex;
+    width: 100%;
+    align-items: center;
+
+}
+
+.oraj__footer-content_lowerpart h1{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    color: #ffffff;
+    width: 100%;
+}
+
+
+.oraj__footer-content_socials {
+    gap: 5vh;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.oraj__footer-content_link {
+    margin: 0vh;
+    border-radius: 500px;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    -moz-transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+    transform: scale(1,1);
+
+}
+
+.oraj__footer-content_link img{
+    width: 5vh;
+    border-radius: 500px;
+
+}
+
+.oraj__footer-content_link:hover {
+    filter: invert(0.2);
+    cursor: pointer;
+    -moz-transform: scale(1.1,1.1);
+    -webkit-transform: scale(1.1,1.1);
+    transform: scale(1.1,1.1);    
+
+}
+
+.oraj__footer-content_socialsmobcont {
+    justify-content: center;
+    align-items: center;
+    display: none;
+    flex-direction: column;
+}
+
+.oraj__footer-content_socialsmobcont h1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    color: #ffffff;
+    width: 100%;
+}
+
+
+
+.oraj__footer-content_socialsmob1 {
+    filter: invert(0.6);
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.oraj__footer-content_socialsmob2 {
+    filter: invert(0.6);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+
+@media screen and (max-width: 1214px) {
+
+    .oraj__footer {
+        background-color: #0E0E0E;
+        margin-top: 5vh;
+    }
+
+    .oraj__footer-content {
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    .oraj__footer-content_middletext {
+        display: none;
+
+    }
+    
+    .oraj__footer-content_middletextmob {
+        display: flex;
+    }
+ 
+    .oraj__footer-content_resttext h1{
+        font-weight: 600;
+        color: #ffffff;
+        line-height: 150%;
+        font-size: 30px;
+    
+    }
+    
+    .oraj__footer-content_button h1{
+        font-weight: 600;
+        background: linear-gradient(270deg, #D78BAF 0%, #FBBB9D 52.19%, #BC969A 102.26%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        font-size: 30px;
+        line-height: 150%;
+        cursor: pointer;
+    }
+
+    .oraj__footer-content_email h1 {
+        width: auto;
+        justify-content: flex-end;
+        align-items: flex-end;
+        color: white;
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 16px;
+        }
+
+
+        .oraj__footer-content_socials {
+            display: none;
+            
+        }
+
+        .oraj__footer-content_link {
+            margin: 2vh;
+        }
+
+        .oraj__footer-content_socialsmobcont {
+            
+            margin-top: 3vh;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
+
+
+        .oraj__footer-content_lowerpart {
+            margin-top: 10vh;
+            display: none;
+        
+        }
+}
+
+
+@media screen and (max-width: 1214px) {
+
+.oraj__footer-content_link:hover {
+    cursor: default;
+    -moz-transform: none;
+    -webkit-transform: none;
+    transform: none;
+
+}
+
+}
