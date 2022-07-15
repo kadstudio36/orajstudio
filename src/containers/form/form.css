@@ -41,7 +41,7 @@
 
 
 .oraj__form-content_textinput{
-    margin-top: 7vh;
+    margin-top: 3vw;
     font-family: var(--font-family);
     font-weight: 400;
     position: relative;
@@ -144,11 +144,11 @@
         }
 
     .oraj__form-content_button {
-        margin-top: 6vh;
+        margin-top: 4vw;
     }
 
     .oraj__form-content_textinput{
-        margin-top: 6vh;
+        margin-top: 4vw;
     }
 
     .oraj__form-content_backtop h1{
@@ -178,11 +178,11 @@
 @media screen and (max-width: 1600px) {
 
     .oraj__form-content_button {
-        margin-top: 5vh;
+        margin-top: 4vw;
     }
     
     .oraj__form-content_textinput{
-        margin-top: 5vh;
+        margin-top: 4vw;
     }
 
     .oraj__form-content_backtop h1{
@@ -215,11 +215,11 @@
         }
 
     .oraj__form-content_button {
-        margin-top: 5vh;
+        margin-top: 3vw;
     }
 
     .oraj__form-content_textinput{
-        margin-top: 5vh;
+        margin-top: 3vw;
     }
 
     .oraj__form-content_backtop h1{
@@ -247,11 +247,11 @@
 @media screen and (max-width: 1214px) {
 
     .oraj__form-content_button {
-        margin-top: 4vh;
+        margin-top: 4vw;
     }
 
     .oraj__form-content_textinput{
-        margin-top: 4vh;
+        margin-top: 4vw;
     }
 
     .oraj__form-content_backtop h1{
@@ -278,11 +278,11 @@
 @media screen and (max-width: 750px) {
 
     .oraj__form-content_button {
-        margin-top: 4vh;
+        margin-top: 5vw;
     }
 
     .oraj__form-content_textinput{
-        margin-top: 4vh;
+        margin-top: 5vw;
     }
 
     .oraj__form-content_backtop {
@@ -313,6 +313,12 @@
 
 @media screen and (max-width: 450px) {
 
+    .oraj__form-content_button {
+        margin-top: 7vw;
+    }
 
+    .oraj__form-content_textinput{
+        margin-top: 7vw;
+    }
     
 }
