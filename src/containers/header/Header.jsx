@@ -23,8 +23,8 @@ const Header = () => {
            </video>
 
             <div className="oraj__header-content__buttons">
-            <div className="ourwork"><button type="button"><h4>Our Work</h4></button></div>
-            <div className="idea"><button type="button"><h5>Have an idea?</h5><img src={arrowdiago} alt="arrowdiago" /></button></div>
+            <div className="ourwork"><a href="#work"><button type="button"><h4>Our Work</h4></button></a></div>
+            <div className="idea"><a href="#form"><button type="button"><h5>Have an idea?</h5><img src={arrowdiago} alt="arrowdiago" /></button></a></div>
             </div>
 
 

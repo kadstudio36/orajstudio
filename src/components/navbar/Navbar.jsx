@@ -8,9 +8,9 @@ import smallbar from '../../assets/small_bar.svg'
 
 const Menu = () => (
   <>
-  <p><a href="#home">Home</a></p>
-  <p><a href="#work">Work</a></p>
-  <p><a href="#contact">Contact</a></p>
+  <p><a href="/">Home</a></p>
+  <p><a href="/workpage">Work</a></p>
+  <p><a href="/contact">Contact</a></p>
   </>
 )
 
@@ -21,7 +21,7 @@ const Navbar = () => {
     <div className="oraj__navbar">
       <div className="oraj__navbar-links">
         <div className="oraj__navbar-links_logo">
-          <a href="#home"><img src={logo} alt="logo" /></a>
+          <a href="/"><img src={logo} alt="logo" /></a>
         </div>
 
       </div>
@@ -31,12 +31,16 @@ const Navbar = () => {
           </div>
           <img className ="smallbar" src={smallbar} alt="smallbar" />
             <div className="oraj__navbar-consult_button">
+              
                 <button type="button">
+                <a href="/contact">
                   <div className="buttonwhite">
                     <p>Free Consultation</p>
                       <img src={arrowdiago} alt="arrowdiago" />
                   </div>
+                  </a>
                 </button> 
+                
             </div>
         </div>
         <div className="oraj__navbar-menu">

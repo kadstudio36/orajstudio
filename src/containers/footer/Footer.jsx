@@ -31,7 +31,7 @@ const Footer = () => {
 
             <div className="oraj__footer-content_middletextmob">
                 <div className="oraj__footer-content_weareoraj">
-                  <button className="oraj__footer-content_button"><h1>We are Oraj.</h1></button></div>
+                  <div className="oraj__footer-content_button"><h1>We are Oraj.</h1></div></div>
                   <div className="oraj__footer-content_resttext"><h1>Creative and unique.<br></br>We break standards.</h1></div>
                 
             </div>

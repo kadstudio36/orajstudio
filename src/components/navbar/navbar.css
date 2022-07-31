@@ -46,6 +46,18 @@ font-size: 18px;
 text-transform: capitalize;
 margin: 0 2rem;
 cursor: pointer;
+-moz-transition: all .5s;
+-webkit-transition: all .5s;
+transition: all .5s;
+-moz-transform: scale(1,1);
+-webkit-transform: scale(1,1);
+transform: scale(1,1);
+}
+
+.oraj__navbar-links_container p:hover {
+    filter: opacity(50%);
+    cursor: pointer; 
+
 }
 
 .smallbar{
@@ -90,6 +102,18 @@ cursor: pointer;
     background: var(--gradient-bar);
     border-radius: 40px;
     border: 0px;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    -moz-transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+    transform: scale(1,1);
+}
+
+.oraj__navbar-consult button:hover {
+    filter: hue-rotate(0.17turn);
+    cursor: pointer; 
+
 }
 
 

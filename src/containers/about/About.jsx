@@ -19,7 +19,9 @@ const About = () => {
             <h1>About us</h1><h2>Oraj is a creative agency with market-leading design and development skills. We help you transform your brand and make the digital shift.</h2>
             </div>
               <div className="oraj__about-content_cards">
+                
                 <div className="oraj__about-content_websites">
+                <a href="/contact">
                   <div className="oraj__about-content_websitesbg">
                   <div className="oraj__about-content_websitesimgtxt">
                   <img src={websitesimg} alt={websitesimg} />
@@ -28,8 +30,11 @@ const About = () => {
                   </div>
                   </div>
                   </div>
+                  </a>
                 </div>
+                
                 <div className="oraj__about-content_applications">
+                <a href="/contact">
                 <div className="oraj__about-content_applicationsbg">
                 <div className="oraj__about-content_applicationsimgtxt">
                   <img src={applicationsimg} alt={applicationsimg} />
@@ -38,8 +43,10 @@ const About = () => {
                   </div>
                   </div>
                   </div>
+                  </a>
                 </div>
                 <div className="oraj__about-content_branding">
+                <a href="/contact">
                 <div className="oraj__about-content_brandingbg">
                 <div className="oraj__about-content_brandingimgtxt">
                   <img src={brandingimg} alt={brandingimg} />
@@ -47,7 +54,8 @@ const About = () => {
                   <h1>Branding</h1><h2>We take care of market research, branding and business models.</h2>
                   </div>
                   </div>
-                </div>
+                  </div>
+                </a>
                 </div>
               </div>
             </div>

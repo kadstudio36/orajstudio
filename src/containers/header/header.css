@@ -78,7 +78,6 @@
     font-family: var(--font-family);
     font-weight: 600;
     font-size: 18px;
-    cursor: pointer;
     }
 
 .oraj__header-content__buttons h5 {
@@ -91,7 +90,6 @@
         font-family: var(--font-family);
         font-weight: 600;
         font-size: 18px;
-        cursor: pointer;
         border: 0px;
         border-bottom: 1px solid;
         border-image: var(--gradient-bar);
@@ -101,25 +99,68 @@
 .ourwork button{
     display: flex;
     align-items: center;
-    cursor: pointer;
     border-radius: 40px;
     border: 0px;
     background-color: #9E00FF;
     padding: 1rem 1.5rem;
 
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    -moz-transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+    transform: scale(1,1);
+
+}
+
+.ourwork button:hover {
+    filter: opacity(80%);
+    cursor: pointer; 
+    -moz-transform: scale(1.03,1.03);
+    -webkit-transform: scale(1.03,1.03);
+    transform: scale(1.03,1.03);    
+
 }
 
 .idea button{
-    margin-left: 2rem;
     display: flex;
     align-items: center;
 
-    cursor: pointer;
     border-radius: 40px;
     border: 0px;
     background-color: #ffffff;
     padding: 0rem 0rem;
 
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    -moz-transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+    transform: scale(1,1);
+}
+
+.idea a{
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+
+    border-radius: 40px;
+    border: 0px;
+    background-color: #ffffff;
+    padding: 0rem 0rem;
+
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    -moz-transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+    transform: scale(1,1);
+
+}
+
+.idea button:hover {
+    filter: hue-rotate(0.17turn);
+    cursor: pointer; 
 }
 
 .oraj__header-video {
@@ -321,6 +362,21 @@
 
         @media screen and (max-width: 750px) {
 
+
+            .idea button:hover {
+                filter: none;
+                cursor: default; 
+            }
+
+            .ourwork button:hover {
+                filter: none;
+                cursor: default;
+                -moz-transform: none;
+                -webkit-transform: none;
+                transform: none;
+            
+            }
+
             .oraj__header-content h1 {
                 font-size: 20px;
                         }
@@ -335,7 +391,7 @@
         
         }
         
-        .idea button{
+        .idea a{
             margin-left: 1rem;
         }
 

@@ -73,6 +73,7 @@ border-bottom: 2px solid var(--color-subtext);
 }
 
 .oraj__footer-content_resttext {
+    cursor: default;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -81,7 +82,6 @@ border-bottom: 2px solid var(--color-subtext);
     font-family: var(--font-family);
     font-weight: 400;
     color: var(--color-subtext);
-    cursor: pointer;
     border: 0px;
     background-color: #0E0E0E;
 }
@@ -102,7 +102,6 @@ border-bottom: 2px solid var(--color-subtext);
     flex-direction: column;
     font-family: var(--font-family);
     color: var(--color-subtext);
-    cursor: pointer;
     border: 0px;
     background-color: #0E0E0E;
 }
@@ -115,7 +114,6 @@ border-bottom: 2px solid var(--color-subtext);
     background-clip: text;
     font-size: 48px;
     line-height: 120%;
-    cursor: pointer;
 }
 
 .oraj__footer-content_lowerpart {
@@ -254,7 +252,6 @@ border-bottom: 2px solid var(--color-subtext);
         background-clip: text;
         font-size: 30px;
         line-height: 150%;
-        cursor: pointer;
     }
 
     .oraj__footer-content_email h1 {

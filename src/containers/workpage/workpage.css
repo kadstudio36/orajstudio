@@ -1,0 +1,103 @@
+.oraj__form-content_topdiv {
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+}
+
+.oraj__form-content_backtop {
+    width: fit-content;
+    margin-top: 10vh;
+    display: flex;
+    cursor: pointer;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border: 0px;
+    padding: 0rem 0rem;
+}
+
+
+.oraj__form-content_backtop h1{
+    font-family: var(--font-family);
+    font-weight: 500;
+    color: var(--color-subtext);
+    position: relative;
+    outline:none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    line-height: 100%;
+}
+
+
+.oraj__form-content_backtop img{
+    width: 1.5vh;
+margin-left: 0.7vh;
+    }
+
+    @media screen and (max-width: 1920px) {
+
+        .oraj__form-content_backtop h1{
+            font-size: 22px;
+        }
+
+
+
+    }
+
+    @media screen and (max-width: 1600px) {
+
+
+        .oraj__form-content_backtop h1{
+            font-size: 20px;
+        }
+    
+
+
+
+    }
+
+    @media screen and (max-width: 1440px) {
+
+        .oraj__form-content_backtop h1{
+            font-size: 20px;
+        }
+
+
+
+
+    }
+
+
+    @media screen and (max-width: 1214px) {
+
+
+        .oraj__form-content_backtop h1{
+            font-size: 18px;
+        }
+
+
+    }
+
+    @media screen and (max-width: 750px) {
+
+        .oraj__form-content_backtop {
+            margin-top: 7vh;
+        }
+    
+        .oraj__form-content_backtop h1{
+            font-size: 16px;
+        }
+
+
+
+    }
+
+
+    @media screen and (max-width: 450px) {
+
+
+
+
+
+    }
