@@ -5,7 +5,7 @@ import {
     Route
   } from "react-router-dom"; 
 
-import { About, Footer, Form, Header, Work, Workpage, Contact } from './containers';
+import { About, Footer, Form, Header, Work, Workpage, Contact, Toastcoin } from './containers';
 import { Homepage } from './containers';
 import { Navbar } from './components';
 import './App.css';
@@ -23,6 +23,7 @@ const App = () => {
             <Route path="/" element={<Homepage />} />
             <Route path="/workpage" element={<Workpage />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/toastcoin" element={<Toastcoin />} />
             </Routes>
         </BrowserRouter>
         </div>
