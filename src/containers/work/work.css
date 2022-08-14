@@ -72,6 +72,14 @@
 
 }
 
+.oraj__work-content_toastcoin a{
+
+    border-radius: 5vw;
+
+    
+
+}
+
 .oraj__work-content_toastcoin:hover {
     
     cursor: pointer;

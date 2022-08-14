@@ -12,6 +12,7 @@ import muspacelogo from '../../assets/muspace-logo.svg'
 const Toastcoin = () => (
 <>
                   <div className="oraj__work-content_toastcoin">
+                  <a href="/toastcoin">
                     <div className="oraj__work-content_toastcoinbg">
                     <div className="oraj__work-content_toastcoinleft">
                         <div className="oraj__work-content_toastcointextbox">
@@ -39,6 +40,8 @@ const Toastcoin = () => (
                       </div>
                       </div>
                     </div>
+                    </a>
+                    
                   </div>
 </>
 )
