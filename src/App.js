@@ -5,7 +5,7 @@ import {
     Route
   } from "react-router-dom"; 
 
-import { About, Footer, Form, Header, Work, Workpage, Contact, Toastcoin } from './containers';
+import { About, Footer, Form, Header, Work, Workpage, Contact, Toastcoin, Muspace } from './containers';
 import { Homepage } from './containers';
 import { Navbar } from './components';
 import './App.css';
@@ -24,6 +24,7 @@ const App = () => {
             <Route path="/workpage" element={<Workpage />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/toastcoin" element={<Toastcoin />} />
+            <Route path="/muspace" element={<Muspace />} />
             </Routes>
         </BrowserRouter>
         </div>

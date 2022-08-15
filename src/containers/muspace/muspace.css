@@ -1,0 +1,190 @@
+.body{
+    
+    padding-top: 0px;
+    padding-bottom: 300px;
+    margin-bottom: -15px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 3;
+    }
+    
+    
+    
+    
+    
+    .container{
+    
+        position: relative;
+        z-index: -2;
+        margin:0 auto;
+        align-items: center;
+        align-content: center;
+        background: transparent;
+        width: 1400px;
+    }
+    
+    
+    
+    .zaapislide1{
+        width: 101%;
+        height: 101%;
+    }
+    
+    
+    .slide1container{
+        margin-top: 100px;
+        position: relative;
+        
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        height: auto;
+        background-color: #ffffff;
+    
+        
+            }
+
+            .pixel1{
+                height: 10px;
+                position: absolute;
+                color: #ffffff;
+                z-index: 10;
+                margin-top: -10px;
+                width: 100%;
+                background-color: #ffffff;
+
+
+            }
+    
+            
+    .zaapislide2{
+        
+        width: 100%;
+       
+        
+        }
+    
+    
+    
+        .slide2container{
+            position: relative;
+            overflow: hidden;
+            z-index: 0;
+    margin-top: 90px;
+
+    
+    
+        }
+    
+        .zaapislide3{
+        
+            width: 101%;
+            height: 101%;
+           
+            
+            }
+        
+        
+        
+            .slide3container{
+                position: relative;
+                overflow: hidden;
+                z-index: 0;
+        margin-top: 0px;
+        margin-top: -5px;
+        
+        
+            }
+    
+    
+        .zaapislide4{
+    position: relative;
+    z-index: 3;
+            width: auto;
+        
+        
+            
+            
+            }
+    
+        .slide4container{
+            position: relative;
+            z-index: 3;
+            top: -6px;
+            
+                }
+                  
+    
+    
+        @media (max-width: 1400px) {
+    
+            .body{
+                padding-top: 0px;
+            }
+            .container{
+                padding-top: 0px;
+                justify-content: center;
+                width: auto;
+                background: #ffffff;
+                height: auto;
+    
+    
+            }
+    
+            .zaapislide1{
+                width: auto;
+    
+    
+                
+    
+    
+                
+                }
+    
+                .slide1container{
+    
+    
+            
+                }
+    
+    
+                .zaapislide2{
+                    
+                    width: auto;
+    
+    
+                    
+                    }
+    
+                    .slide2container{
+    
+    
+    
+    
+                    }
+    
+                    .zaapislide3{
+    
+                        width: auto;
+                    
+                    
+                        
+                        
+                        }
+    
+                        .slide3container{
+                        
+                        
+                        }
+                    
+    
+    
+    
+    
+      
+    
+                
+    
+    
+        }

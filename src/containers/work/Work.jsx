@@ -50,6 +50,7 @@ const Toastcoin = () => (
 const Muspace = () => (
   <>
                     <div className="oraj__work-content_toastcoin">
+                    <a href="/muspace">
                       <div className="oraj__work-content_muspacebg">
                       <div className="oraj__work-content_toastcoinleft">
                           <div className="oraj__work-content_toastcointextbox">
@@ -77,6 +78,7 @@ const Muspace = () => (
                         </div>
                         </div>
                       </div>
+                      </a>
                     </div>
   </>
   )
