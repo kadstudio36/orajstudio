@@ -66,8 +66,8 @@ style={{
 </div>
 
 
-<div className="slide2container">
-<div className="zaapislide2">
+<div className="slide4container">
+<div className="zaapislide4">
 
 
 
