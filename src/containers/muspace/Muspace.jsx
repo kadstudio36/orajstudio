@@ -179,10 +179,10 @@ style={{
 </div>
 </div>  
 
-<div className="slide3container">
+<div className="slide5container">
 <video loop autoPlay playsinline="true"
 disablePictureInPicture="true"
-muted autobuffer className="zaapislide3"
+muted autobuffer className="zaapislide5"
 style={{
     width: "100%",
     left: "100%",
@@ -193,7 +193,7 @@ style={{
 
   }}
 >
-    
+     
 <source src={zaapislide8} type="video/mp4"/>
 </video>
 
