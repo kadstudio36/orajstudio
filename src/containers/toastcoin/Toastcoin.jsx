@@ -21,9 +21,7 @@ const Toastcoin = () => {
 
 <div className="slide1container">
 
-<video loop autoPlay playsinline="true"
-disablePictureInPicture="true"
-muted autobuffer className="zaapislide1"
+<video loop autoPlay playsInline="true" disablePictureInPicture="true" muted autobuffer className="zaapislide1"
 style={{
     width: "100.1%",
     height: "100%",
@@ -45,10 +43,10 @@ style={{
 <div className="container">
 
 
-<div className="slide3container">
+<div className="slide5container">
 <video loop autoPlay playsinline="true"
 disablePictureInPicture="true"
-muted autobuffer className="zaapislide3"
+muted autobuffer className="zaapislide5"
 style={{
     width: "100%",
     left: "100%",
