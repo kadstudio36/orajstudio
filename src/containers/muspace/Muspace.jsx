@@ -157,8 +157,8 @@ style={{
 </div>
 </div>  
 
-<div className="slide2container">
-<div className="zaapislide2"
+<div className="slide5container">
+<div className="zaapislide5"
 
 
 >
