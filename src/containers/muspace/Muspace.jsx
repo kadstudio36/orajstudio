@@ -11,7 +11,6 @@ import zaapislide5 from '../../assets/muspace/zaapi_SLIDE5.jpg'
 import zaapislide6 from '../../assets/muspace/zaapi_SLIDE6.jpg'
 import zaapislide7 from '../../assets/muspace/zaapi_SLIDE7.jpg'
 import zaapislide8 from '../../assets/muspace/zaapi_SLIDE8.mp4'
-import zaapislide9 from '../../assets/muspace/zaapi_SLIDE9.mp4'
 
 
 
@@ -200,25 +199,6 @@ style={{
 
 </div>
 
-<div className="slide5container">
-<video loop autoPlay playsinline="true"
-disablePictureInPicture="true"
-muted autobuffer className="zaapislide5"
-style={{
-    width: "100%",
-    left: "100%",
-    top: "100%",
-    height: "100%",
-    objectFit: "contain",
-
-
-  }}
->
-     
-<source src={zaapislide9} type="video/mp4"/>
-</video>
-
-</div>
 
 
 
