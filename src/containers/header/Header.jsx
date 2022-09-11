@@ -13,8 +13,7 @@ const Header = () => {
 
 
             <h1 className="upper__text">We build digital experiences</h1>
-            <div className="oraj__header-content_maintext">
-              <h2>Oraj Studio</h2> <div className="straight-bar"></div> <h3>Montreal based creative</h3>
+            <div className="oraj__header-content_maintext"> <h3>Transforming your idea into a product</h3>
           </div>
 
           <video loop autoPlay playsInline="true" disablePictureInPicture="true" muted autobuffer className="oraj__header-video_mobile">

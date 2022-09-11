@@ -14,6 +14,8 @@ import './App.css';
 
 
 const App = () => {
+
+
     return (
         <div className="App">
 
@@ -24,10 +26,12 @@ const App = () => {
                 <meta name="description" content="Oraj Studio is a creative agency with market-leading design and development skills. We help you transform your brand and make the digital shift." />
             </Helmet>
 
+
+        
             <div className="gradient_bg"></div>
             <BrowserRouter>
                 <Navbar />
-
+            
             <Routes>
             <Route path="/" element={<Homepage />} />
             <Route path="/workpage" element={<Workpage />} />
@@ -35,9 +39,13 @@ const App = () => {
             <Route path="/toastcoin" element={<Toastcoin />} />
             <Route path="/muspace" element={<Muspace />} />
             </Routes>
+            
         </BrowserRouter>
+
         </div>
+    
     )
+    
 }
 
 export default App

@@ -54,8 +54,8 @@
 
 .oraj__header-content h3 {
     font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 2.4vw;
+    font-weight: 700;
+    font-size: 2.5vw;
     line-height: 100%;
     color: var(--color-text);
     }
@@ -309,14 +309,19 @@
     .oraj__header-content h1 {
         font-size: 20px;
         margin-bottom: 1rem;
+        text-align: center;
+
     }
                 
     .oraj__header-content h2 {
         font-size: 50px;
+        text-align: center;
+
     }
                 
     .oraj__header-content h3 {
-        display: none;
+        font-size: 50px;
+        text-align: center;
     }
         
         
@@ -379,11 +384,18 @@
 
             .oraj__header-content h1 {
                 font-size: 20px;
+                text-align: center;
                         }
                         
                         .oraj__header-content h2 {
                             font-size: 36px;
+                            text-align: center;
                             }
+
+                            .oraj__header-content h3 {
+                            font-size: 36px;
+                            text-align: center;
+                        }
 
 
         .ourwork button{

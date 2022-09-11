@@ -27,13 +27,24 @@ align-items: center;
 
 
 .oraj__navbar-links_logo {
-margin-right: 2rem
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    -moz-transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+    transform: scale(1,1);
 }
 
 
 .oraj__navbar-links_logo img {
-    width: 87.5px;
-    height: 51.2px;
+    width: 225px;
+    height: 43px;
+}
+
+.oraj__navbar-links_logo:hover {
+    filter: contrast(160%) opacity(70%);
+    cursor: pointer; 
+
 }
 
 
@@ -196,7 +207,7 @@ transform: scale(1,1);
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 1.5rem 6rem;
+        padding: 1.5rem 4rem;
         border: 0px;
         border-bottom: 4px solid;
         border-image: var(--gradient-bar);
@@ -210,8 +221,7 @@ transform: scale(1,1);
 @media screen and (max-width: 1213px) {
 
 .oraj__navbar-links_logo img {
-    width: 76px;
-    height: 45;
+    width: 175px;
 }
 
 .oraj__navbar {
