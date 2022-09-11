@@ -8,7 +8,7 @@ import {
 import { About, Footer, Form, Header, Work, Workpage, Contact, Toastcoin, Muspace } from './containers';
 import { Homepage } from './containers';
 import { Navbar } from './components';
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 import './App.css';
 
 
@@ -23,7 +23,9 @@ const App = () => {
                 <meta charSet="utf-8" />
                 <title>Orajstudio</title>
                 <link rel="canonical" href="http://orajstudio.com/" />
+                <meta name="og:site_name" content="Oraj Studio" />
                 <meta name="description" content="Oraj Studio is a creative agency with market-leading design and development skills. We help you transform your brand and make the digital shift." />
+                <meta name="keywords" content="oraj, studio, oraj studio, orajstudio, Orajstudio, Oraj Studio, ui, ux, design, agency, development, creative, branding, product, application, website" />
             </Helmet>
 
 
