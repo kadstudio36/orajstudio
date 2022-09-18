@@ -3,6 +3,7 @@ import './muspace.css';
 import Footer from '../footer/Footer'
 import arrowdiagostraight from '../../assets/arrowdiagostraight.svg'
 
+import zaapislide0  from '../../assets/muspace/zaapi_SLIDE0.mp4';
 import zaapislide1  from '../../assets/muspace/zaapi_SLIDE1.jpg';
 import zaapislide2 from '../../assets/muspace/zaapi_SLIDE2.mp4'
 import zaapislide3  from '../../assets/muspace/zaapi_SLIDE3.jpg';
@@ -22,7 +23,35 @@ const Toastcoin = () => {
 
 <div className="oraj__toastcoin-content" id="muspace">
 
-<div className="slide2container">
+<div className="slide1container">
+
+<video loop autoPlay playsInline="true" disablePictureInPicture="true" muted autobuffer className="zaapislide1"
+style={{
+    width: "100.1%",
+    height: "100%",
+    zIndex: "1",
+    position: "relative",
+    objectFit: "fill",
+  }}
+>
+    
+<source src={zaapislide0} type="video/mp4"/>
+</video>
+</div>
+
+
+
+
+
+
+<div className="container">
+
+
+
+<div className="slide3container">
+<div className="zaapislide1">
+
+
 
 <img src={zaapislide1} alt="zaapislide1"
    style={{
@@ -36,11 +65,12 @@ const Toastcoin = () => {
 
   }}
 
-/>    
+/>       
+
+
+</div>
 </div>
 
-
-<div className="container">
 
 
 <div className="slide3container">

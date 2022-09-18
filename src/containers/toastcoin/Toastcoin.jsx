@@ -53,8 +53,6 @@ style={{
     top: "100%",
     height: "100%",
     objectFit: "contain",
-
-
   }}
 >
     
