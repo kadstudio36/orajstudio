@@ -21,10 +21,25 @@
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
+
 }
+
+
 
 .oraj__footer-content_logo img{
     width: 4vw;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    -moz-transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+    transform: scale(1,1);
+
+}
+
+.oraj__footer-content_logo img:hover {
+    filter: contrast(110%) brightness(120%);
+    cursor: pointer; 
 
 }
 
@@ -34,7 +49,12 @@
     align-items: flex-end;
     display: flex;
 
+
 }
+
+
+
+
 
 .oraj__footer-content_email h1 {
 width: auto;
@@ -47,6 +67,18 @@ font-size: 24px;
 background: none;
 border: none;
 border-bottom: 2px solid var(--color-subtext);
+-moz-transition: all .5s;
+-webkit-transition: all .5s;
+transition: all .5s;
+-moz-transform: scale(1,1);
+-webkit-transform: scale(1,1);
+transform: scale(1,1);
+}
+
+.oraj__footer-content_email h1:hover {
+    filter: invert(0.2);
+    cursor: pointer;
+
 }
 
 .oraj__footer-content_middletext {

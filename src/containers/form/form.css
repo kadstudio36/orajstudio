@@ -61,7 +61,21 @@
     border: 0px;
     background-color: #ffffff;
     padding: 0rem 0rem;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    -moz-transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+    transform: scale(1,1);
+
+
 }
+
+.oraj__form-content_button:hover {
+    filter: opacity(60%);
+    cursor: pointer;
+}
+
 
 .oraj__form-content_button h1{
     font-family: var(--font-family);
@@ -74,12 +88,22 @@
     border: none;
     line-height: 100%;
     border-bottom: 2px solid var(--color-subtext);
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    -moz-transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+    transform: scale(1,1);
 }
+
+
+
 
 .oraj__form-content_button img{
     width: 2vh;
     margin-left: 0.7vh;
     }
+
 
 .oraj__form-content_topdiv {
     width: 100%;
@@ -97,6 +121,17 @@
         align-items: flex-end;
         border: 0px;
         padding: 0rem 0rem;
+        -moz-transition: all .5s;
+        -webkit-transition: all .5s;
+        transition: all .5s;
+        -moz-transform: scale(1,1);
+        -webkit-transform: scale(1,1);
+        transform: scale(1,1);
+    }
+
+    .oraj__form-content_backtop:hover {
+        filter: opacity(60%);
+        cursor: pointer;
     }
 
     

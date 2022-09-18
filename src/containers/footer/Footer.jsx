@@ -19,7 +19,7 @@ const Footer = () => {
           <div className="oraj__footer-content">
 
             <div className="oraj__footer-content_upperpart">
-              <div className="oraj__footer-content_logo"><img src={orajlogoo} alt={orajlogoo} /></div><div className="oraj__footer-content_email"><h1><a href="mailto:orajstudio@gmail.com">orajstudio@gmail.com</a></h1></div>
+            <a href="/"><div className="oraj__footer-content_logo"><img src={orajlogoo} alt={orajlogoo} /></div></a><div className="oraj__footer-content_email"><h1><a href="mailto:orajstudio@gmail.com">orajstudio@gmail.com</a></h1></div>
             </div>
 
             <div className="oraj__footer-content_middletext">
