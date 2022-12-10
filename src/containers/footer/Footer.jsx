@@ -6,8 +6,6 @@ import tiktok from '../../assets/socials/white/tik-tok.svg'
 import linkedin from '../../assets/socials/white/linkedin.svg'
 import instagram from '../../assets/socials/white/instagram.svg'
 import twitter from '../../assets/socials/white/twitter.svg'
-import facebook from '../../assets/socials/white/facebook.svg'
-
 
 
 
@@ -40,21 +38,18 @@ const Footer = () => {
               <h1>©Odify Creative 2022</h1>
               
               <div className="oraj__footer-content_socials">
-                <div className="oraj__footer-content_link">
-                  <a href="https://www.behance.net/orajstudio" target="_blank" rel="noreferrer"><img src={behance} alt={behance} /></a></div>
+              <div className="oraj__footer-content_link">
+                  <a href="https://www.behance.net/odifycreative" target="_blank" rel="noreferrer"><img src={behance} alt={behance} /></a></div>
                   <div className="oraj__footer-content_link">
-                  <a href="https://www.tiktok.com/@orajstudio" target="_blank" rel="noreferrer"><img src={tiktok} alt={tiktok} /></a></div>
+                  <a href="https://www.tiktok.com/@odify.creative" target="_blank" rel="noreferrer"><img src={tiktok} alt={tiktok} /></a></div>
                   <div className="oraj__footer-content_link">
-                  <a href="https://www.linkedin.com/company/oraj-studio/" target="_blank" rel="noreferrer"><img src={linkedin} alt={linkedin} /></a></div>
+                  <a href="https://www.linkedin.com/company/odify-creative/" target="_blank" rel="noreferrer"><img src={linkedin} alt={linkedin} /></a></div>
                   <div className="oraj__footer-content_link">
-                  <a href="https://www.instagram.com/oraj.studio/" target="_blank" rel="noreferrer"><img src={instagram} alt={instagram} /></a></div>
+                  <a href="https://www.instagram.com/odify.creative/" target="_blank" rel="noreferrer"><img src={instagram} alt={instagram} /></a></div>
                   <div className="oraj__footer-content_link">
-                  <a href="https://twitter.com/OrajStudio/" target="_blank" rel="noreferrer"><img src={twitter} alt={twitter} /></a></div>
-                  <div className="oraj__footer-content_link">
-                  <a href="https://www.behance.net/orajstudio" target="_blank" rel="noreferrer"><img src={facebook} alt={facebook} /></a></div>
-                  </div>
-            
-            </div>
+                  <a href="https://twitter.com/OdifyCreative" target="_blank" rel="noreferrer"><img src={twitter} alt={twitter} /></a></div>
+
+                  </div></div>
 
             <div className="oraj__footer-content_socialsmobcont">
             <h1>©Odify Creative 2022</h1>
@@ -62,20 +57,18 @@ const Footer = () => {
               
 
                 <div className="oraj__footer-content_link">
-                  <a href="https://www.behance.net/orajstudio" target="_blank" rel="noreferrer"><img src={behance} alt={behance} /></a></div>
+                  <a href="https://www.behance.net/odifycreative" target="_blank" rel="noreferrer"><img src={behance} alt={behance} /></a></div>
                   <div className="oraj__footer-content_link">
-                  <a href="https://www.tiktok.com/@orajstudio" target="_blank" rel="noreferrer"><img src={tiktok} alt={tiktok} /></a></div>
+                  <a href="https://www.tiktok.com/@odify.creative" target="_blank" rel="noreferrer"><img src={tiktok} alt={tiktok} /></a></div>
                   <div className="oraj__footer-content_link">
-                  <a href="https://www.linkedin.com/company/oraj-studio/" target="_blank" rel="noreferrer"><img src={linkedin} alt={linkedin} /></a></div>
+                  <a href="https://www.linkedin.com/company/odify-creative/" target="_blank" rel="noreferrer"><img src={linkedin} alt={linkedin} /></a></div>
                   </div>
                 <div className="oraj__footer-content_socialsmob2">
 
                   <div className="oraj__footer-content_link">
-                  <a href="https://www.instagram.com/oraj.studio/" target="_blank" rel="noreferrer"><img src={instagram} alt={instagram} /></a></div>
+                  <a href="https://www.instagram.com/odify.creative/" target="_blank" rel="noreferrer"><img src={instagram} alt={instagram} /></a></div>
                   <div className="oraj__footer-content_link">
-                  <a href="https://twitter.com/OrajStudio/" target="_blank" rel="noreferrer"><img src={twitter} alt={twitter} /></a></div>
-                  <div className="oraj__footer-content_link">
-                  <a href="https://www.behance.net/orajstudio" target="_blank" rel="noreferrer"><img src={facebook} alt={facebook} /></a></div>
+                  <a href="https://twitter.com/OdifyCreative" target="_blank" rel="noreferrer"><img src={twitter} alt={twitter} /></a></div>
                   
                   </div>
 
