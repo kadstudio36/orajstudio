@@ -21,11 +21,11 @@ const App = () => {
 
             <Helmet>
                 <meta charSet="utf-8" />
-                <title>Orajstudio</title>
-                <link rel="canonical" href="http://orajstudio.com/" />
-                <meta name="og:site_name" content="Oraj Studio" />
-                <meta name="description" content="Oraj Studio is a creative agency with market-leading design and development skills. We help you transform your brand and make the digital shift." />
-                <meta name="keywords" content="oraj, studio, oraj studio, orajstudio, Orajstudio, Oraj Studio, ui, ux, design, agency, development, creative, branding, product, application, website" />
+                <title>Odify</title>
+                <link rel="canonical" href="http://odify.ca/" />
+                <meta name="og:site_name" content="Odify" />
+                <meta name="description" content="Odify is a creative agency with market-leading design and development skills. We help you transform your brand and make the digital shift." />
+                <meta name="keywords" content="odify, creative, odify creative, odifycreative, Odifycreative, Odify Creative, ui, ux, design, agency, development, creative, branding, product, application, website" />
             </Helmet>
 
 

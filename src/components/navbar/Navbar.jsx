@@ -53,7 +53,7 @@ const Navbar = () => {
           <div className="oraj__navbar-menu_container slide-in-left">
             <div className="oraj__navbar-menu_container-links"></div>
             <Menu />
-            <div className="sayhello"><h1>Say hello!</h1><h2><a href="mailto:orajstudio@gmail.com">orajstudio@gmail.com</a></h2></div>
+            <div className="sayhello"><h1>Say hello!</h1><h2><a href="mailto:odifycreative@gmail.com">odifycreative@gmail.com</a></h2></div>
           </div>
 
         )}

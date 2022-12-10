@@ -8,9 +8,6 @@ justify-content: space-between;
 align-items: center;
 padding: 1.5rem 12rem;
 border: 0px;
-border-bottom: 4px solid;
-border-image: var(--gradient-bar);
-border-image-slice: 1;
 position: fixed; /* Set the navbar to fixed position */
 z-index: 5;
 top: 0; /* Position the navbar at the top of the page */
@@ -225,15 +222,13 @@ transform: scale(1,1);
 }
 
 .oraj__navbar {
+    background: rgba(255, 255, 255, 0.95);
     filter: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
     border: 0px;
-    border-bottom: 4px solid;
-    border-image: var(--gradient-bar);
-    border-image-slice: 1;
 }
 
 .smallbar{

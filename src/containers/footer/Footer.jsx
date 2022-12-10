@@ -19,25 +19,25 @@ const Footer = () => {
           <div className="oraj__footer-content">
 
             <div className="oraj__footer-content_upperpart">
-            <a href="/"><div className="oraj__footer-content_logo"><img src={orajlogoo} alt={orajlogoo} /></div></a><div className="oraj__footer-content_email"><h1><a href="mailto:orajstudio@gmail.com">orajstudio@gmail.com</a></h1></div>
+            <a href="/"><div className="oraj__footer-content_logo"><img src={orajlogoo} alt={orajlogoo} /></div></a><div className="oraj__footer-content_email"><h1><a href="mailto:odifycreative@gmail.com">odifycreative@gmail.com</a></h1></div>
             </div>
 
             <div className="oraj__footer-content_middletext">
                 <div className="oraj__footer-content_weareoraj">
-                  <button className="oraj__footer-content_button"><h1>We are Oraj.</h1></button></div>
+                  <button className="oraj__footer-content_button"><h1>We are Odify.</h1></button></div>
                   <div className="oraj__footer-content_resttext"><h1>Creativity, originality, out of the ordinary.<br></br>We break standards.</h1></div>
                 
             </div>
 
             <div className="oraj__footer-content_middletextmob">
                 <div className="oraj__footer-content_weareoraj">
-                  <div className="oraj__footer-content_button"><h1>We are Oraj.</h1></div></div>
+                  <div className="oraj__footer-content_button"><h1>We are Odify.</h1></div></div>
                   <div className="oraj__footer-content_resttext"><h1>Creative and unique.<br></br>We break standards.</h1></div>
                 
             </div>
 
             <div className="oraj__footer-content_lowerpart">
-              <h1>©Oraj Studio 2022</h1>
+              <h1>©Odify Creative 2022</h1>
               
               <div className="oraj__footer-content_socials">
                 <div className="oraj__footer-content_link">
@@ -57,7 +57,7 @@ const Footer = () => {
             </div>
 
             <div className="oraj__footer-content_socialsmobcont">
-            <h1>©Oraj Studio 2022</h1>
+            <h1>©Odify Creative 2022</h1>
             <div className="oraj__footer-content_socialsmob1">
               
 

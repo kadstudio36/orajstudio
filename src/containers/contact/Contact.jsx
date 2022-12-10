@@ -19,7 +19,7 @@ const Contact = () => {
             <div className="oraj__contact-content" id="contact">
                 <div className="oraj__contact section__padding" id="home">
 
-                        <div className="oraj__contact-content_email"><h1><a href="mailto:orajstudio@gmail.com">orajstudio@gmail.com</a></h1>  </div>            
+                        <div className="oraj__contact-content_email"><h1><a href="mailto:odifycreative@gmail.com">odifycreative@gmail.com</a></h1>  </div>            
                         
                         <div className="oraj__footer-content_socials">
                 <div className="oraj__footer-content_link">
