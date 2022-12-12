@@ -115,19 +115,15 @@
     display: flex;
     width: 100%;
     height: 100%;
-    background-size: cover;
-    justify-content: flex-end;
-    align-items: flex-end;
+    background-size: contain;
+    justify-content: center;
+    align-items: center;
 }
 
 .oraj__work-content_toastcoinimg img {
     border-radius: 0 5vw 5vw 0;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
     width: 100%;
     height: 100%;
-    background-size: cover;
     justify-content: center;
     align-items: center;
 
@@ -486,7 +482,6 @@ height: 2vw;
         border-radius: 0 0 10vw 10vw;
         width: 100%;
         height: 90%;
-        background-size: contain;
         justify-content: center;
         align-items: center;
     }
